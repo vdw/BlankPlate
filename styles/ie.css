@@ -1,0 +1,19 @@
+/**
+ * BlankPlate | Yet another HTML5 Starter Kit
+ *
+ * BlankPlate IE stylesheet
+ *
+ * @copyright	Copyright 2012, Dimitris Krestos
+ * @license		Apache License, Version 2.0 (http://www.opensource.org/licenses/apache2.0.php)
+ * @link		http://vdw.staytuned.gr
+ * @package		BlankPlate
+ * @version		v1.0
+ */
+
+/*
+ * IE FIXES
+ * Your IE fixes
+ */
+.ie {
+	display: block
+}
