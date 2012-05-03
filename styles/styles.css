@@ -1,7 +1,7 @@
 /**
  * BlankPlate | Yet another HTML5 Starter Kit
  *
- * BlankPlate Basic stylesheet
+ * BlankPlate Main stylesheet
  *
  * @copyright	Copyright 2012, Dimitris Krestos
  * @license		Apache License, Version 2.0 (http://www.opensource.org/licenses/apache2.0.php)
@@ -11,26 +11,8 @@
  */
 
 /*
- * FONTS
- * A font face implementation
- */
-@font-face {
-	font-family: 'TheDummyFontID';
-	src: url('fonts/dummyfont.eot'); /* IE6–8 */
-
-	/* FF3.6+, IE9, Chrome6+, Saf5.1+*/
-	/* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
-	src: url('fonts/dummyfont.eot?#iefix') format('embedded-opentype'),
-		 url('fonts/dummyfont.woff') format('woff'),
-		 url('fonts/dummyfont.ttf') format('truetype'),
-		 url('fonts/dummyfont.svg#TheDummyFontID') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
-
-/*
- * TYPOGRAPHY & TOOLS
- * A basic declaration of common elements and some useful rules
+ * WORLD
+ *
  */
 BODY {
 	background: #FFF;
@@ -39,122 +21,6 @@ BODY {
 	font-size: 12px;
 }
 
-A {
-	color: #000;
-	text-decoration: none;
-}
-
-A:hover {
-	text-decoration: underline
-}
-
-H1 {
-	color: #333;
-	font-size: 22px;
-}
-
-H2 {
-	color: #333;
-	font-size: 18px;
-}
-
-H3 {
-	color: #333;
-	font-size: 14px;
-}
-
-H4, H5, H6 {
-	color: #666;
-	font-size: 14px;
-}
-
-HR {
-	border-top-color: #CCC;
-}
-
-::-moz-selection {
-	background: rgba(223, 61, 130, 0.3);
-	color: #EEE;
-}
-
-::selection {
-	background: rgba(223, 61, 130, 0.3);
-	color: #EEEEEE;
-}
-
-.invisible {
-	/* IE7- */
-	opacity: 0; /* Chrome 4+, FF2+, Saf3.1+, Opera 9+, IE9, iOS 3.2+, Android 2.1+ */
-		filter: alpha(opacity=0); /* IE6-IE8 */
-
-	border: none;
-	margin: 20px 0px;
-}
-
-.ie {
-	display: none;
-}
-
-/* Rule based on http://css3please.com/ */
-.radius {
-	-webkit-border-radius: 4px; /* Saf3-4, iOS 1-3.2, Android ≤1.6 */
-	   -moz-border-radius: 4px; /* FF1-3.6 */
-			border-radius: 4px; /* Opera 10.5, IE9, Saf5, Chrome, FF4, iOS 4, Android 2.1+ */
-
-	/* useful if you don't want a bg color from leaking outside the border: */
-	-moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
-}
-
-/* Rule based on http://css3please.com/ */
-.gradient {
-	background-color: #A39AC8;
-	background-image: -webkit-gradient(linear, left top, left bottom, from(#A39AC8), to(#6F64A1)); /* Saf4+, Chrome */
-	background-image: -webkit-linear-gradient(top, #A39AC8, #6F64A1); /* Chrome 10+, Saf5.1+, iOS 5+ */
-	background-image:    -moz-linear-gradient(top, #A39AC8, #6F64A1); /* FF3.6 */
-	background-image:     -ms-linear-gradient(top, #A39AC8, #6F64A1); /* IE10 */
-	background-image:      -o-linear-gradient(top, #A39AC8, #6F64A1); /* Opera 11.10+ */
-	background-image:         linear-gradient(to bottom, #A39AC8, #6F64A1);
-}
-
-/* Rule based on http://css3please.com/ */
-.transition {
-	-webkit-transition: all 0.6s ease 0s; /* Saf3.2+, Chrome */
-	   -moz-transition: all 0.6s ease 0s; /* FF4+ */
-		-ms-transition: all 0.6s ease 0s; /* IE10? */
-	     -o-transition: all 0.6s ease 0s; /* Opera 10.5+ */
-			transition: all 0.6s ease 0s;
-}
-
-/* Rule based on http://css3please.com/ */
-.rgba {
-	background-color: transparent;
-	background-color: rgba(255, 255, 255, 0.6);  /* FF3+, Saf3+, Opera 10.10+, Chrome, IE9 */
-			filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#66FFFFFF,endColorstr=#66FFFFFF); /* IE6–IE9 */
-			zoom: 1;
-}
-
-.shadow {
-	text-shadow: 1px 1px 1px #CCC;
-}
-
-.clear {
-	clear: both;
-	font-size: 1px;
-	height: 0px;
-	line-height: 0;
-}
-
-blockquote {
-	color: #666;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	margin-left: 20px;
-}
-
-/*
- * WORLD
- *
- */
 #wrapper {
 	background-color: #EFECDD;
 	margin: 0 auto;
