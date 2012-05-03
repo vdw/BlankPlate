@@ -65,6 +65,12 @@ HR {
 	border-top-color: #CCC;
 }
 
+ARTICLE.capitalise H1 + P:first-letter {
+	font-size: 48px;
+	float: left;
+	letter-spacing: 4px;
+}
+
 ::-moz-selection {
 	background: rgba(223, 61, 130, 0.3);
 	color: #EEE;
