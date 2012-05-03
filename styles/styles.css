@@ -15,14 +15,13 @@
  *
  */
 BODY {
-	background: #FFF;
 	color: #686868;
 	font-family: 'Open Sans', sans-serif;
-	font-size: 12px;
+	font-size: 13px;
+	line-height: 18px;
 }
 
 #wrapper {
-	background-color: #EFECDD;
 	margin: 0 auto;
 	width: 960px;
 }
