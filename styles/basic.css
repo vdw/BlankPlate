@@ -171,8 +171,17 @@ blockquote {
 	padding-left:20px
 }
 
+/* Based on Monokai scheme colors */
 code {
 	background-color: #272822;
 	color: #FB4383;
 	padding: 2px 4px;
+}
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+	color: #C0C0C0;
+}
+
+input:-moz-placeholder, textarea:-moz-placeholder {
+	color: #C0C0C0;
 }
