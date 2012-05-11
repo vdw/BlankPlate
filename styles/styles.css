@@ -10,7 +10,7 @@
  * @version		v1.0
  */
 
-/*
+/**
  * WORLD
  *
  */
@@ -26,13 +26,13 @@ BODY {
 	width: 960px;
 }
 
-/*
+/**
  * HEADER
  * Your header rules
  */
 HEADER {}
 
-/*
+/**
  * NAVIGATION
  * Your navigaiton rules
  */
@@ -55,7 +55,7 @@ NAV LI {
 	*display: inline;
 }
 
-/*
+/**
  * ASIDE
  * Your side bar rules
  */
@@ -63,7 +63,7 @@ ASIDE {
 	float: left;
 }
 
-/*
+/**
  * BODY
  * Your content rules
  */
@@ -73,7 +73,7 @@ SECTION#body {
 
 ARTICLE {}
 
-/*
+/**
  * CONTACT
  * Your form rules
  */
@@ -87,7 +87,7 @@ ARTICLE {}
 	margin: 0;
 }
 
-/*
+/**
  * FOOTER
  * Your footer rules
  */

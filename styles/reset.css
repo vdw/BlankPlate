@@ -13,7 +13,7 @@
  * @version		v1.0
  */
 
-/*
+/**
  * GLOBAL
  * Reset margins and paadings for all
  */
@@ -23,7 +23,7 @@
 	padding: 0
 }
 
-/*
+/**
  * COMMON
  * Based on Eric Meyer's reset (http://meyerweb.com/eric/tools/css/reset/index.html)
  */
@@ -38,7 +38,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	vertical-align: baseline
 }
 
-/*
+/**
  * HTML5 ELEMENTS
  * Handle the following as blocks
  */
@@ -46,7 +46,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 	display: block
 }
 
-/*
+/**
  * HEADINGS
  * Reset headings weight
  */
@@ -54,7 +54,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: normal
 }
 
-/*
+/**
  * TABLES
  * Reset table borders
  */
@@ -63,7 +63,7 @@ table {
 	border-spacing: 0
 }
 
-/*
+/**
  * LISTS
  * Reset list styles
  */
@@ -71,7 +71,7 @@ ol, ul {
 	list-style: none outside none
 }
 
-/*
+/**
  * MORE RESET
  *
  */
@@ -87,7 +87,7 @@ blockquote, q {
 	quotes: none
 }
 
-/*
+/**
  * MORE FIXES
  *
  */

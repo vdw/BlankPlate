@@ -10,7 +10,7 @@
  * @version		v1.0
  */
 
-/*
+/**
  * FONTS
  * A font face implementation
  */
@@ -28,7 +28,7 @@
 	font-style: normal;
 }
 
-/*
+/**
  * TYPOGRAPHY & TOOLS
  * A basic declaration of common elements and some useful rules
  */
@@ -139,7 +139,7 @@ ARTICLE.capitalise H2 + P:first-letter {
 	-webkit-transition: all 0.6s ease 0s; /* Saf3.2+, Chrome */
 	   -moz-transition: all 0.6s ease 0s; /* FF4+ */
 		-ms-transition: all 0.6s ease 0s; /* IE10? */
-	     -o-transition: all 0.6s ease 0s; /* Opera 10.5+ */
+		 -o-transition: all 0.6s ease 0s; /* Opera 10.5+ */
 			transition: all 0.6s ease 0s;
 }
 
