@@ -109,6 +109,11 @@ ARTICLE.capitalise H2 + P:first-letter {
 	margin: 20px 0px;
 }
 
+.hide_text {
+	color: transparent;
+	text-indent: -999;
+}
+
 .ie {
 	display: none;
 }
