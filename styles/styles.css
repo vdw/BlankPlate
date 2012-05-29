@@ -17,6 +17,8 @@
 BODY {
 	color: #686868;
 	font-family: 'Open Sans', sans-serif;
+
+	/* Ratio ~1.48 */
 	font-size: 13px;
 	line-height: 18px;
 }
