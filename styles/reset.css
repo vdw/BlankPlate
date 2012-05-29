@@ -99,8 +99,9 @@ iframe, img {
 	vertical-align: bottom
 }
 
-input[type="submit"], select {
-	vertical-align: middle
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+	*overflow: visible;
+	-webkit-appearance: button;
 }
 
 blockquote:before, blockquote:after, q:before, q:after {
