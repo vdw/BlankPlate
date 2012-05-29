@@ -71,7 +71,7 @@
 .red {
 	background-color: #D14836;
 	background-image: -moz-linear-gradient(center top , #DD4B39, #D14836);
-	border: 1px solid transparent;
+	border: 1px solid #D14836;
 	color: #FFFFFF !important
 }
 
@@ -89,7 +89,7 @@
 .yellow {
 	background-color: #FFE86C;
 	background-image: -moz-linear-gradient(center top , #FFE86C, #FFE86C);
-	border: 1px solid transparent;
+	border: 1px solid #FFE86C;
 	color: #333 !important
 }
 
