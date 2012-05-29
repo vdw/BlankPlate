@@ -81,3 +81,21 @@
 	border-color: #B0281A;
 	color: #FFFFFF !important
 }
+
+/**
+ * YELLOW BUTTON
+ * Yellow color for buttons
+ */
+.yellow {
+	background-color: #FFE86C;
+	background-image: -moz-linear-gradient(center top , #FFE86C, #FFE86C);
+	border: 1px solid transparent;
+	color: #333 !important
+}
+
+.yellow:hover {
+	background-color: #FFE86C;
+	background-image: -moz-linear-gradient(center top , #FFE86C, #FFE86C);
+	border-color: #E8B463;
+	color: #333 !important
+}
