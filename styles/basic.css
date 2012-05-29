@@ -131,13 +131,13 @@ ARTICLE.capitalise H2 + P:first-letter {
 
 /* Rule based on http://css3please.com/ */
 .gradient {
-	background-color: #A39AC8;
-	background-image: -webkit-gradient(linear, left top, left bottom, from(#A39AC8), to(#6F64A1)); /* Saf4+, Chrome */
-	background-image: -webkit-linear-gradient(top, #A39AC8, #6F64A1); /* Chrome 10+, Saf5.1+, iOS 5+ */
-	background-image:    -moz-linear-gradient(top, #A39AC8, #6F64A1); /* FF3.6 */
-	background-image:     -ms-linear-gradient(top, #A39AC8, #6F64A1); /* IE10 */
-	background-image:      -o-linear-gradient(top, #A39AC8, #6F64A1); /* Opera 11.10+ */
-	background-image:         linear-gradient(to bottom, #A39AC8, #6F64A1);
+	background-color: #CCC;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#CCC), to(#FFF)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #CCC, #FFF); /* Chrome 10+, Saf5.1+, iOS 5+ */
+	background-image:    -moz-linear-gradient(top, #CCC, #FFF); /* FF3.6 */
+	background-image:     -ms-linear-gradient(top, #CCC, #FFF); /* IE10 */
+	background-image:      -o-linear-gradient(top, #CCC, #FFF); /* Opera 11.10+ */
+	background-image:         linear-gradient(to bottom, #CCC, #FFF);
 }
 
 /* Rule based on http://css3please.com/ */
