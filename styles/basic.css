@@ -29,8 +29,8 @@
 }
 
 /**
- * TYPOGRAPHY & TOOLS
- * A basic declaration of common elements and some useful rules
+ * TYPOGRAPHY
+ * A basic declaration of common elements
  */
 A {
 	color: #000;
@@ -91,6 +91,26 @@ ARTICLE.capitalise H2 + P:first-letter {
 	margin-top: 6px;
 }
 
+/* Based on Golden Ratio */
+.ratio13 {
+	font-size: 13px;
+	line-height: 16px;
+}
+
+.ratio14 {
+	font-size: 14px;
+	line-height: 26px;
+}
+
+.ratio15 {
+	font-size: 15px;
+	line-height: 27px;
+}
+
+/**
+ * HELPERS
+ * Some useful rules
+ */
 ::-moz-selection {
 	background: rgba(223, 61, 130, 0.3);
 	color: #EEE;
@@ -166,22 +186,6 @@ ARTICLE.capitalise H2 + P:first-letter {
 	font-size: 1px;
 	height: 0px;
 	line-height: 0;
-}
-
-/* Based on Golden Ratio */
-.ratio13 {
-	font-size: 13px;
-	line-height: 16px;
-}
-
-.ratio14 {
-	font-size: 14px;
-	line-height: 26px;
-}
-
-.ratio15 {
-	font-size: 15px;
-	line-height: 27px;
 }
 
 blockquote {
