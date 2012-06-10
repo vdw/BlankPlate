@@ -93,4 +93,6 @@ ARTICLE {}
  * FOOTER
  * Your footer rules
  */
-FOOTER {}
+FOOTER {
+	padding: 1em 0 2em 0;
+}

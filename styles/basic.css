@@ -76,8 +76,9 @@ P {
 }
 
 UL, OL {
-	margin-left: 20px;
+	margin-top: 14px;
 	margin-bottom: 14px;
+	margin-left: 20px;
 }
 
 UL LI, OL LI {
@@ -199,9 +200,16 @@ blockquote {
 
 /* Based on Monokai scheme colors */
 code {
+	background-color: #F8F8F8;
+	border: 1px solid #CCCCCC;
+	color: #333333;
+	font-family: Courier, 'Courier New', monospace;
+	padding: 2px 4px;
+}
+
+code.monokai {
 	background-color: #272822;
 	color: #FB4383;
-	padding: 2px 4px;
 }
 
 input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
