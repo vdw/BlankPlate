@@ -26,6 +26,7 @@ Directory structure:
         basic.css           <!-- typography and helpers-->
         buttons.css         <!-- buttons and colors-->
         ie.css              <!-- almost empty to put your ie rules-->
+        inputs.css          <!-- basic rules for inputs-->
         reset.css           <!-- a good reset-->
         styles.css          <!-- almost empty to put your main rules-->
     index.html              <!-- basic HTML5 structure-->
