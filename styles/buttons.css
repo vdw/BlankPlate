@@ -19,14 +19,13 @@
 	background-image: -moz-linear-gradient(center top , #F5F5F5, #F1F1F1);
 	border: 1px solid rgb(211, 211, 211);
 	border: 1px solid rgba(0, 0, 0, 0.1);
-	border-radius: 2px;
+	border-radius: 3px;
 	color: #444 !important;
 	cursor: default !important;
 	display: inline-block;
 	font-size: 11px;
-	font-weight: bold;
 	height: 29px;
-	line-height: 29px;
+	line-height: 26px;
 	margin-bottom: 14px;
 	min-width: 54px;
 	padding: 0 8px;
@@ -36,7 +35,7 @@
 }
 
 .btn span {
-	font: bold 11px/26px Arial,sans-serif !important;
+	font: 11px/24px 'Open Sans', sans-serif !important;
 	vertical-align: top
 }
 
@@ -54,14 +53,14 @@
 	background-color: #4D90FE;
 	background-image: -moz-linear-gradient(center top , #4D90FE, #4787ED);
 	border: 1px solid #3079ED;
-	color: #FFFFFF !important
+	color: #FFF !important
 }
 
 .blue:hover {
 	background-color: #357AE8;
 	background-image: -moz-linear-gradient(center top , #4090FE, #357AE8);
 	border-color: #2F5887;
-	color: #FFFFFF !important
+	color: #FFF !important
 }
 
 /**
@@ -72,14 +71,14 @@
 	background-color: #D14836;
 	background-image: -moz-linear-gradient(center top , #DD4B39, #D14836);
 	border: 1px solid #D14836;
-	color: #FFFFFF !important
+	color: #FFF !important
 }
 
 .red:hover {
 	background-color: #D14836;
 	background-image: -moz-linear-gradient(center top , #DD4B39, #C53727);
 	border-color: #B0281A;
-	color: #FFFFFF !important
+	color: #FFF !important
 }
 
 /**
