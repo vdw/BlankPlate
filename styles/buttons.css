@@ -31,6 +31,7 @@
 	padding: 0 8px;
 	text-align: center;
 	text-decoration: none !important;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.1);
 	-moz-user-select: none
 }
 
@@ -41,7 +42,7 @@
 
 .btn:hover {
 	border-color: #C6C6C6;
-	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
 	color: #222 !important
 }
 
@@ -97,4 +98,22 @@
 	background-image: -moz-linear-gradient(center top , #FFE86C, #FFE86C);
 	border-color: #E8B463;
 	color: #333 !important
+}
+
+/**
+ * GREEN BUTTON
+ * Green color for buttons
+ */
+.green {
+	background-color: #35AA47;
+	background-image: -moz-linear-gradient(center top , #35AA47, #35AA47);
+	border: 1px solid #359947;
+	color: #FFF !important
+}
+
+.green:hover {
+	background-color: #35AA47;
+	background-image: -moz-linear-gradient(center top , #35AA47, #1D943B);
+	border-color: #508C36;
+	color: #FFF !important
 }
