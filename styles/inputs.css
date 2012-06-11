@@ -1,0 +1,60 @@
+/**
+ * BlankPlate | Yet another HTML5 Starter Kit
+ *
+ * BlankPlate Inputs stylesheet
+ *
+ * @copyright	Copyright 2012, Dimitris Krestos
+ * @license		Apache License, Version 2.0 (http://www.opensource.org/licenses/apache2.0.php)
+ * @link		http://vdw.staytuned.gr
+ * @package		BlankPlate
+ * @version		v1.0
+ */
+
+/**
+ * INPUTS
+ * Basic rules for inputs, textareas and selects
+ */
+INPUT, TEXTAREA, SELECT, .uneditable-input {
+	background-color: #FFF;
+	border: 1px solid #CCC;
+	border-radius: 3px;
+	display: inline-block;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	line-height: 22px;
+	margin-bottom: 9px
+}
+
+SELECT, INPUT[type="file"] {
+	height: 40px !important;
+	padding: 9px !important
+}
+
+INPUT[type="text"], INPUT[type="password"], TEXTAREA {
+	height: 22px;
+	padding: 8px;
+	width: 300px
+}
+
+INPUT:focus, TEXTAREA:focus {
+	border-color: rgba(82, 168, 236, 0.8);
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
+	outline: 0 none
+}
+
+INPUT, TEXTAREA {
+	-moz-transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s
+}
+
+SELECT {
+	background-color: #FFF;
+	width: 220px
+}
+
+OPTION {
+	padding: 4px 8px
+}
+
+TEXTAREA {
+	height: 250px
+}

@@ -23,20 +23,19 @@
 	color: #444 !important;
 	cursor: default !important;
 	display: inline-block;
-	font-size: 11px;
-	height: 29px;
-	line-height: 26px;
+	font-size: 13px;
+	height: 30px;
+	line-height: 24px;
 	margin-bottom: 14px;
 	min-width: 54px;
 	padding: 0 8px;
 	text-align: center;
 	text-decoration: none !important;
-	text-shadow: 0 1px rgba(0, 0, 0, 0.1);
 	-moz-user-select: none
 }
 
 .btn span {
-	font: 11px/24px 'Open Sans', sans-serif !important;
+	font: 13px/22px 'Open Sans', sans-serif !important;
 	vertical-align: top
 }
 
@@ -54,7 +53,8 @@
 	background-color: #4D90FE;
 	background-image: -moz-linear-gradient(center top , #4D90FE, #4787ED);
 	border: 1px solid #3079ED;
-	color: #FFF !important
+	color: #FFF !important;
+	text-shadow:0 1px 1px rgba(0, 0, 0, 0.25)
 }
 
 .blue:hover {
@@ -90,14 +90,14 @@
 	background-color: #FFE86C;
 	background-image: -moz-linear-gradient(center top , #FFE86C, #FFE86C);
 	border: 1px solid #FFE86C;
-	color: #333 !important
+	color: #FFF !important
 }
 
 .yellow:hover {
 	background-color: #FFE86C;
 	background-image: -moz-linear-gradient(center top , #FFE86C, #FFE86C);
 	border-color: #E8B463;
-	color: #333 !important
+	color: #FFF !important
 }
 
 /**
