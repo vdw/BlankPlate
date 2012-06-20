@@ -152,13 +152,13 @@ ARTICLE.capitalise H2 + P:first-letter {
 
 /* Rule based on http://css3please.com/ */
 .gradient {
-	background-color: #CCC;
-	background-image: -webkit-gradient(linear, left top, left bottom, from(#CCC), to(#FFF)); /* Saf4+, Chrome */
-	background-image: -webkit-linear-gradient(top, #CCC, #FFF); /* Chrome 10+, Saf5.1+, iOS 5+ */
-	background-image:    -moz-linear-gradient(top, #CCC, #FFF); /* FF3.6 */
-	background-image:     -ms-linear-gradient(top, #CCC, #FFF); /* IE10 */
-	background-image:      -o-linear-gradient(top, #CCC, #FFF); /* Opera 11.10+ */
-	background-image:         linear-gradient(to bottom, #CCC, #FFF);
+	background-color: #F4F4F4;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#FFF), to(#F4F4F4)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #FFF, #F4F4F4); /* Chrome 10+, Saf5.1+, iOS 5+ */
+	background-image:    -moz-linear-gradient(top, #FFF, #F4F4F4); /* FF3.6 */
+	background-image:     -ms-linear-gradient(top, #FFF, #F4F4F4); /* IE10 */
+	background-image:      -o-linear-gradient(top, #FFF, #F4F4F4); /* Opera 11.10+ */
+	background-image:         linear-gradient(to bottom, #FFF, #F4F4F4);
 }
 
 /* Rule based on http://css3please.com/ */
@@ -180,6 +180,11 @@ ARTICLE.capitalise H2 + P:first-letter {
 
 .shadow {
 	text-shadow: 1px 1px 1px #CCC;
+}
+
+.box_shadow {
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+	padding: 12px 20px 2px;
 }
 
 .clear {
