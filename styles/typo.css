@@ -1,0 +1,109 @@
+/**
+ * BlankPlate | Yet another HTML5 Starter Kit
+ *
+ * BlankPlate basic Typography stylesheet
+ *
+ * @copyright	Copyright 2012, Dimitris Krestos
+ * @license		Apache License, Version 2.0 (http://www.opensource.org/licenses/apache2.0.php)
+ * @link		http://vdw.staytuned.gr
+ * @package		BlankPlate
+ * @version		v1.0
+ */
+
+/**
+ * FONTS
+ * A font face implementation
+ */
+@font-face {
+	font-family: 'TheDummyFontID';
+	src: url('fonts/dummyfont.eot'); /* IE6–8 */
+
+	/* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+	/* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+	src: url('fonts/dummyfont.eot?#iefix') format('embedded-opentype'),
+		 url('fonts/dummyfont.woff') format('woff'),
+		 url('fonts/dummyfont.ttf') format('truetype'),
+		 url('fonts/dummyfont.svg#TheDummyFontID') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/**
+ * TYPOGRAPHY
+ * A basic declaration of common elements
+ */
+A {
+	color: #000;
+	text-decoration: none;
+}
+
+A:hover {
+	text-decoration: underline
+}
+
+/* Ratio ~1.96 */
+H1 {
+	color: #333;
+	font-size: 30px;
+	line-height: 44px;
+}
+
+H2 {
+	color: #333;
+	font-size: 24px;
+	line-height: 36px;
+}
+
+H3 {
+	color: #333;
+	font-size: 18px;
+	line-height: 27px;
+}
+
+H4, H5, H6 {
+	color: #666;
+	font-size: 18px;
+	line-height: 27px;
+}
+
+HR {
+	border-top-color: #CCC;
+}
+
+P {
+	line-height: 18px;
+	margin-bottom: 14px;
+}
+
+UL, OL {
+	margin-top: 14px;
+	margin-bottom: 14px;
+	margin-left: 20px;
+}
+
+UL LI, OL LI {
+	line-height: 18px;
+}
+
+ARTICLE.capitalise H2 + P:first-letter {
+	font-size: 36px;
+	float: left;
+	letter-spacing: 4px;
+	margin-top: 6px;
+}
+
+/* Based on Golden Ratio */
+.ratio13 {
+	font-size: 13px;
+	line-height: 16px;
+}
+
+.ratio14 {
+	font-size: 14px;
+	line-height: 26px;
+}
+
+.ratio15 {
+	font-size: 15px;
+	line-height: 27px;
+}
