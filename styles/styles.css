@@ -36,11 +36,12 @@ HEADER {}
 
 /**
  * NAVIGATION
- * Your navigaiton rules
+ * Your horizontal (global) navigation rules
  */
 NAV {}
 
-NAV UL, NAV LI {
+/* Level 0 */
+NAV > UL, NAV > LI {
 	display: inline;
 }
 
@@ -48,7 +49,7 @@ NAV UL {
 	float: left;
 }
 
-NAV LI {
+NAV > UL > LI {
 	display: inline-block;
 
 	/* IE */
