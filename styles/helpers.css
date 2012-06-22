@@ -21,7 +21,7 @@
 
 ::selection {
 	background: rgba(223, 61, 130, 0.3);
-	color: #EEEEEE;
+	color: #EEE;
 }
 
 .invisible {
@@ -30,7 +30,11 @@
 		filter: alpha(opacity=0); /* IE6-IE8 */
 
 	border: none;
-	margin: 20px 0px;
+}
+
+.hidden {
+	display: none;
+	visibility: hidden;
 }
 
 .hide_text {
