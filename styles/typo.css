@@ -76,13 +76,30 @@ P {
 }
 
 UL, OL {
-	margin-top: 14px;
-	margin-bottom: 14px;
-	margin-left: 20px;
+	margin: 14px 0 14px 20px;
+
 }
 
 UL LI, OL LI {
 	line-height: 18px;
+}
+
+UL.vertical {
+	margin: 0;
+}
+
+UL.horizontal {
+	display: inline;
+	margin: 0;
+}
+
+UL.horizontal > LI {
+	display: inline-block;
+
+	/* IE */
+	*margin: 1px;
+	zoom: 1;
+	*display: inline;
 }
 
 ARTICLE.capitalise H2 + P:first-letter {

@@ -41,21 +41,8 @@ HEADER {}
 NAV {}
 
 /* Level 0 */
-NAV > UL, NAV > LI {
-	display: inline;
-}
-
 NAV UL {
 	float: left;
-}
-
-NAV > UL > LI {
-	display: inline-block;
-
-	/* IE */
-	*margin: 1px;
-	zoom: 1;
-	*display: inline;
 }
 
 /**

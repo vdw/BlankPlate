@@ -14,6 +14,8 @@
  * HELPERS
  * Some useful rules
  */
+
+ /* Selection */
 ::-moz-selection {
 	background: rgba(223, 61, 130, 0.3);
 	color: #EEE;
@@ -24,6 +26,7 @@
 	color: #EEE;
 }
 
+/* Hide stuff */
 .invisible {
 	/* IE7- */
 	opacity: 0; /* Chrome 4+, FF2+, Saf3.1+, Opera 9+, IE9, iOS 3.2+, Android 2.1+ */
@@ -37,7 +40,7 @@
 	visibility: hidden;
 }
 
-.hide_text {
+.text_hide {
 	color: transparent;
 	text-indent: -999;
 }
@@ -79,11 +82,12 @@
 /* Rule based on http://css3please.com/ */
 .rgba {
 	background-color: transparent;
-	background-color: rgba(255, 255, 255, 0.6);  /* FF3+, Saf3+, Opera 10.10+, Chrome, IE9 */
-			filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#66FFFFFF,endColorstr=#66FFFFFF); /* IE6–IE9 */
-			zoom: 1;
+	background-color: rgba(255, 255, 255, 0.6); /* FF3+, Saf3+, Opera 10.10+, Chrome, IE9 */
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#66FFFFFF,endColorstr=#66FFFFFF); /* IE6–IE9 */
+		zoom: 1;
 }
 
+/* Shadows */
 .shadow {
 	text-shadow: 1px 1px 1px #CCC;
 }
@@ -93,6 +97,7 @@
 	padding: 12px 20px 2px;
 }
 
+/* Clear fix */
 .clear {
 	clear: both;
 	font-size: 1px;
@@ -101,7 +106,7 @@
 }
 
 blockquote {
-	border-left: 4px solid #EEEEEE;
+	border-left: 4px solid #EEE;
 	color: #666;
 	margin-top: 10px;
 	margin-bottom: 10px;
@@ -112,8 +117,8 @@ blockquote {
 /* Based on Monokai scheme colors */
 code {
 	background-color: #F8F8F8;
-	border: 1px solid #CCCCCC;
-	color: #333333;
+	border: 1px solid #CCC;
+	color: #333;
 	font-family: Courier, 'Courier New', monospace;
 	padding: 2px 4px;
 }
