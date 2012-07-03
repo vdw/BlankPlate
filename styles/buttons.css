@@ -49,6 +49,20 @@ A.btn {
 	line-height: 26px;
 }
 
+@-moz-document url-prefix() {
+
+	INPUT[type="button"].btn,
+	INPUT[type="submit"].btn {
+		padding-bottom: 2px
+	}
+
+	.btn SPAN {
+		display: block;
+		margin-bottom: 2px
+	}
+
+}
+
 /**
  * BLUE BUTTON
  * Blue color for buttons
