@@ -31,6 +31,7 @@ Directory structure:
         styles.css          <!-- almost empty to put your main rules-->
         typo.css            <!-- typography rules-->
     index.html              <!-- basic HTML5 structure-->
+    demo.html               <!-- a demo page-->
     LICENCE.txt             <!-- licence-->
     README.md               <!-- readme-->
     TODO.txt                <!-- next steps-->
@@ -44,6 +45,8 @@ Directory structure:
  - Opera 10+
  - Safari 4+
 
-## TODO
+## Demo
 
- - Create a demo
+A demo page is available [here][1]
+
+  [1]: https://dl.dropbox.com/u/28039153/blankplate/demo.html
