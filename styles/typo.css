@@ -109,6 +109,26 @@ ARTICLE.capitalise H2 + P:first-letter {
 	margin-top: 6px;
 }
 
+P STRONG,
+LI STRONG {
+	font-weight: bold;
+}
+
+P I,
+LI I {
+	font-style: italic;
+}
+
+ARTICLE UL {
+	list-style: disc outside none;
+	margin-left: 34px;
+}
+
+ARTICLE OL {
+	list-style: decimal outside none;
+	margin-left: 34px;
+}
+
 /* Based on Golden Ratio */
 .ratio13 {
 	font-size: 13px;
