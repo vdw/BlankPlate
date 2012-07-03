@@ -111,18 +111,26 @@ blockquote {
 	margin-top: 10px;
 	margin-bottom: 10px;
 	margin-left: 20px;
-	padding-left:10px
+	padding-left:10px;
 }
 
-/* Based on Monokai scheme colors */
+pre {
+	color: #333;
+	display: block;
+	font-family: Courier, 'Courier New', monospace;
+	padding: 4px;
+}
+
 code {
 	background-color: #F8F8F8;
 	border: 1px solid #CCC;
 	color: #333;
+	display: block;
 	font-family: Courier, 'Courier New', monospace;
-	padding: 2px 4px;
+	padding: 4px;
 }
 
+/* Based on Monokai scheme colors */
 code.monokai {
 	background-color: #272822;
 	color: #FB4383;
