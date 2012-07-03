@@ -21,7 +21,7 @@ INPUT, TEXTAREA, SELECT {
 	display: inline-block;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 13px;
-	margin-bottom: 9px
+	margin-bottom: 10px
 }
 
 SELECT, INPUT[type="file"] {
@@ -30,7 +30,7 @@ SELECT, INPUT[type="file"] {
 }
 
 INPUT[type="text"], INPUT[type="password"], TEXTAREA {
-	padding: 4px;
+	padding: 4px
 }
 
 INPUT:focus, TEXTAREA:focus {

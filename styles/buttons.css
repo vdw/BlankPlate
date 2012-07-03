@@ -46,7 +46,7 @@
 
 A.btn {
 	height: 26px;
-	line-height: 26px;
+	line-height: 26px
 }
 
 @-moz-document url-prefix() {
