@@ -25,7 +25,7 @@ INPUT, TEXTAREA, SELECT {
 }
 
 SELECT, INPUT[type="file"] {
-	height: 30px !important;
+	height: 28px !important;
 	padding: 4px !important
 }
 
@@ -48,5 +48,5 @@ SELECT {
 }
 
 OPTION {
-	padding: 2px 8px
+	padding: 0 8px
 }
