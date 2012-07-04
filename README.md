@@ -20,7 +20,7 @@ You do not have to create extra rules and mess with display or float properties,
 
 ## What it does
 
-It resets and redefines in a more rational way your html elements, offers you a collection of helpers, provides you with a basic folder/file/coding structure.
+It resets and redefines in a more rational way your html elements, offers you a collection of helpers, offers you report of empty html elements and atributes, provides you with a basic folder/file/coding structure.
 
 ## What it doesn't
 
@@ -42,6 +42,7 @@ Directory structure:
         jquery-1.7.2.min.js
     styles/                 <!-- styles folder-->
         buttons.css         <!-- buttons and colors-->
+        diagns.css          <!-- css diagnostics-->
         helpers.css         <!-- helpers-->
         ie.css              <!-- almost empty to put your ie rules-->
         inputs.css          <!-- basic rules for inputs-->
