@@ -1,12 +1,30 @@
 # Blankplate
 
-## Yet another HTML5 Starter Kit
+## Yet another HTML5/CSS3 Starter Kit
 
-This is an alternative solution to save you preparation time in ui developing.
+## What is "this"?
+
+This is an alternative solution to save you preparation time in frontend developing.
 
 ## How this will help you
 
-This package provides you with all you need in order to help you build your project quicker but keeping an organized structure and a consistently stylesheet. In short, this package contains basic css rules and useful helpers without the annoying grids, paddings and margins, or even the colors.
+This package provides you with all you need to start building your web page quickly, still keeping an organized structure and a consistently stylesheet.
+
+In short, this package contains a batch of reset and basic css rules, useful helpers etc; anything but annoying rules for grids or with strange paddings and margins.
+
+## A quick and dirty example
+
+Need three navigation menus one horizontal for your global menu, one vertical for your side section and another horizontal in the footer section.
+You do not have to create extra rules and mess with display or float properties, just apply
+`.horizontal` or `.vertical` class to your ul element and that’s it, now you are free to append your actual "styling" properties.
+
+## What it does
+
+It resets and redefines in a more rational way your html elements, offers you a collection of helpers, provides you with a basic folder/file/coding structure.
+
+## What it doesn't
+
+It does not interfere with your design, basically there are not predefine colors, paddings, margings or other dimensions. Consider Blankplate as a chassis for your project.
 
 ## The package
 
