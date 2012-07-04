@@ -33,6 +33,7 @@
 	<header id="navigation">
 		<h2>Horizontal list</h2>
 		<nav>
+			<p>Apply <code>.horizontal</code> class to <code>ul</code> element to create the following deployment.</p>
 			<ul class="horizontal">
 				<li><a href="#headings">Headings</a></li>
 				<li>|</li>
@@ -71,6 +72,7 @@
 
 		<h2>Vertical list</h2>
 		<nav>
+			<p>Apply <code>.vertical</code> class to <code>ul</code> element to create the following deployment.</p>
 			<ul class="vertical">
 				<li><a href="#headings">Headings</a></li>
 				<li><a href="#paragraphs">Paragraphs</a></li>
@@ -127,6 +129,7 @@
 			<!-- CONTENT BLOCK -->
 			<article id="links">
 				<h2>Links</h2>
+				<p>Active only in paragraphs and list items.</p>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <a href="#">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</a> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 			</article>
 			<!-- CONTENT BLOCK ends -->
@@ -135,6 +138,7 @@
 			<!-- CONTENT BLOCK -->
 			<article id="bold">
 				<h2>Bold</h2>
+				<p>Active only in paragraphs and list items.</p>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <strong>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 			</article>
 			<!-- CONTENT BLOCK ends -->
@@ -143,6 +147,7 @@
 			<!-- CONTENT BLOCK -->
 			<article id="italics">
 				<h2>Italics</h2>
+				<p>Active only in paragraphs and list items.</p>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <i>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</i> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 			</article>
 			<!-- CONTENT BLOCK ends -->
@@ -177,6 +182,7 @@
 
 			<article id="ordered_lists">
 				<h2>Ordered lists</h2>
+				<p>Active only in paragraphs.</p>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 				<ul>
 					<li>List Item 1</li>
@@ -192,6 +198,7 @@
 
 			<article id="unordered_lists">
 				<h2>Unordered lists</h2>
+				<p>Active only in paragraphs.</p>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 				<ol>
 					<li>List Item 1</li>
@@ -214,14 +221,16 @@
 
 			<article id="code">
 				<h2>Code</h2>
+				<p>Behaves as a block element when it is not in paragraph.</p>
 				<code>main() { printf("hello, world\n"); }</code>
 			</article>
 
 			<hr>
 
 			<article id="code_themed">
-				<h2>Code (monokai theme)</h2>
-				<code class="monokai">main() { printf("hello, world\n"); }</code>
+				<h2>Code (monokai)</h2>
+				<p>Apply <code>.monokai</code> class to enable monokai colors.</p>
+				<p>Now <code class="monokai">monokai code</code> behaves as an inline element.</p>
 			</article>
 
 <!-- 			<hr>
@@ -237,6 +246,7 @@
 
 			<article id="inputs">
 				<h2>Inputs</h2>
+				<p>You do not need to use any special class.</p>
 				<p>
 					<select>
 						<option>select</option>
@@ -254,6 +264,7 @@
 
 			<article id="buttons">
 				<h2>Buttons</h2>
+				<p>Apply <code>.btn</code> class to any <code>a</code>, <code>input</code> or <code>button</code> tag.</p>
 				<p>
 					<input class="btn" type="button" value="input">
 					<input class="btn blue" type="button" value="blue">
@@ -272,11 +283,11 @@
 
 			<article id="diagnose">
 				<h2>Diagnose empty paragraphs, list items, anchors and image attributes</h2>
-				<p>An empty paragraph is below:</p>
+				<p>An empty paragraph is below.</p>
 				<p></p>
-				<p>An image without an alt attribute and with an empty title is below:</p>
+				<p>An image without an alt attribute and with an empty title is below.</p>
 				<p><img title="" src="http://placehold.it/350x150"></p>
-				<p>The following list is missing the list item 3 and 5:</p>
+				<p>The following list is missing the list item 3 and 5.</p>
 				<ol>
 					<li>List Item 1</li>
 					<li><a href="#">List Item 2</a></li>
@@ -285,7 +296,7 @@
 					<li></li>
 					<li>List Item 6</li>
 				</ol>
-				<p>The following anchors have empty href and title attributes:</p>
+				<p>The following anchors have empty <code>href</code> and <code>title</code> attributes.</p>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <a href="#" title="">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</a>.</p>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <a href="">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</a> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 			</article>

@@ -114,26 +114,33 @@ blockquote {
 	padding-left:10px;
 }
 
-pre {
+PRE {
 	color: #333;
 	display: block;
 	font-family: Courier, 'Courier New', monospace;
-	padding: 4px;
+	margin: 0 2px;
+	padding: 2px 4px;
 }
 
-code {
+CODE {
 	background-color: #F8F8F8;
 	border: 1px solid #CCC;
+	border-radius: 3px;
 	color: #333;
 	display: block;
 	font-family: Courier, 'Courier New', monospace;
-	padding: 4px;
+	margin: 0 2px;
+	padding: 2px 4px;
 }
 
 /* Based on Monokai scheme colors */
-code.monokai {
+CODE.monokai {
 	background-color: #272822;
 	color: #FB4383;
+}
+
+P > CODE {
+	display: inline-block;
 }
 
 input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
