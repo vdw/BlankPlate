@@ -15,5 +15,5 @@
  * Your IE fixes
  */
 .ie {
-	display: block
+	display: none !important
 }
