@@ -1,2 +1,1 @@
-* Create a demo
-* Add rules for inputs
+* Add blank rules as helpers for browser targeting

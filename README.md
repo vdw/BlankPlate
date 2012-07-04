@@ -63,8 +63,12 @@ Directory structure:
  - Opera 10+
  - Safari 4+
 
+## Todo
+
+ - Add blank rules as helpers for browser targeting
+
 ## Demo
 
-A demo page is available [here][1]
+A demo page is available [here][1].
 
   [1]: https://dl.dropbox.com/u/28039153/blankplate/demo.html
