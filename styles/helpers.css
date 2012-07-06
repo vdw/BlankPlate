@@ -18,12 +18,12 @@
  /* Selection */
 ::-moz-selection {
 	background: rgba(223, 61, 130, 0.3);
-	color: #EEE;
+	color: #EEE
 }
 
 ::selection {
 	background: rgba(223, 61, 130, 0.3);
-	color: #EEE;
+	color: #EEE
 }
 
 /* Hide stuff */
@@ -32,17 +32,17 @@
 	opacity: 0; /* Chrome 4+, FF2+, Saf3.1+, Opera 9+, IE9, iOS 3.2+, Android 2.1+ */
 		filter: alpha(opacity=0); /* IE6-IE8 */
 
-	border: none;
+	border: none
 }
 
 .hidden {
 	display: none;
-	visibility: hidden;
+	visibility: hidden
 }
 
 .text_hide {
 	color: transparent;
-	text-indent: -999;
+	text-indent: -999
 }
 
 /* Rule based on http://css3please.com/ */
@@ -79,18 +79,18 @@
 .rgba {
 	background-color: transparent;
 	background-color: rgba(255, 255, 255, 0.6); /* FF3+, Saf3+, Opera 10.10+, Chrome, IE9 */
-		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#66FFFFFF,endColorstr=#66FFFFFF); /* IE6–IE9 */
-		zoom: 1;
+			  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#66FFFFFF,endColorstr=#66FFFFFF); /* IE6–IE9 */
+				zoom: 1;
 }
 
 /* Shadows */
 .shadow {
-	text-shadow: 1px 1px 1px #CCC;
+	text-shadow: 1px 1px 1px #CCC
 }
 
 .box_shadow {
 	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
-	padding: 12px 20px 2px;
+	padding: 12px 20px 2px
 }
 
 /* Clear fix */
@@ -98,16 +98,16 @@
 	clear: both;
 	font-size: 1px;
 	height: 0px;
-	line-height: 0;
+	line-height: 0
 }
 
-blockquote {
+BLOCKQUOTE {
 	border-left: 4px solid #EEE;
 	color: #666;
 	margin-top: 10px;
 	margin-bottom: 10px;
 	margin-left: 20px;
-	padding-left:10px;
+	padding-left: 10px
 }
 
 PRE {
@@ -115,7 +115,7 @@ PRE {
 	display: block;
 	font-family: Courier, 'Courier New', monospace;
 	margin: 0 2px;
-	padding: 2px 4px;
+	padding: 2px 4px
 }
 
 CODE {
@@ -126,23 +126,23 @@ CODE {
 	display: block;
 	font-family: Courier, 'Courier New', monospace;
 	margin: 0 2px;
-	padding: 2px 4px;
+	padding: 2px 4px
 }
 
 /* Based on Monokai scheme colors */
 CODE.monokai {
 	background-color: #272822;
-	color: #FB4383;
+	color: #FB4383
 }
 
 P > CODE {
-	display: inline-block;
+	display: inline-block
 }
 
 input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
-	color: #C0C0C0;
+	color: #C0C0C0
 }
 
 input:-moz-placeholder, textarea:-moz-placeholder {
-	color: #C0C0C0;
+	color: #C0C0C0
 }

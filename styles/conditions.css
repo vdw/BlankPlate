@@ -1,0 +1,35 @@
+/**
+ * BlankPlate | Yet another HTML5 Starter Kit
+ *
+ * BlankPlate Conditions stylesheet
+ *
+ * @copyright	Copyright 2012, Dimitris Krestos
+ * @license		Apache License, Version 2.0 (http://www.opensource.org/licenses/apache2.0.php)
+ * @link		http://vdw.staytuned.gr
+ * @package		BlankPlate
+ * @version		v1.0
+ */
+
+/**
+ * FIREFOX
+ * Your rules for Firefox browser, all versions
+ */
+@-moz-document url-prefix() {
+
+}
+
+/**
+ * OPERA
+ * Your rules for Opera browser, all versions
+ */
+@media all and (-webkit-min-device-pixel-ratio:10000), not all and (-webkit-min-device-pixel-ratio:0) {
+
+}
+
+/**
+ * SAFARI
+ * Your rules for Safari browser, all versions
+ */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+
+}

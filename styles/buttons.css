@@ -49,6 +49,7 @@ A.btn {
 	line-height: 26px
 }
 
+/* Fix vertical center in firefox */
 @-moz-document url-prefix() {
 
 	INPUT[type="button"].btn,
