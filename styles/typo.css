@@ -109,13 +109,13 @@ ARTICLE.capitalise H2 + P:first-letter {
 	margin-top: 6px;
 }
 
-P STRONG,
-LI STRONG {
+P B, LI B,
+P STRONG, LI STRONG {
 	font-weight: bold;
 }
 
-P I,
-LI I {
+P I, LI I,
+P EM, LI EM {
 	font-style: italic;
 }
 
