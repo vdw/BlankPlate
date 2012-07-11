@@ -2,9 +2,9 @@
 
 ## Yet another HTML5/CSS3 Starter Kit
 
-## What is "this"?
+## What is this?
 
-This is an alternative solution to save you preparation time in frontend developing.
+This is an alternative solution to save you time in frontend developing.
 
 ## How this will help you
 

@@ -40,7 +40,11 @@ INPUT:focus, TEXTAREA:focus {
 }
 
 INPUT, TEXTAREA {
-	-moz-transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s
+	-webkit-transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s; /* Saf3.2+, Chrome */
+	   -moz-transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s; /* FF4+ */
+		-ms-transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s; /* IE10? */
+		 -o-transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s; /* Opera 10.5+ */
+			transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
 }
 
 SELECT {
