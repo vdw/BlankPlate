@@ -29,7 +29,7 @@ SELECT, INPUT[type="file"] {
 	padding: 4px !important
 }
 
-INPUT[type="text"], INPUT[type="password"], TEXTAREA {
+INPUT[type="text"], INPUT[type="password"], TEXTAREA, LABEL {
 	padding: 4px
 }
 
@@ -53,4 +53,15 @@ SELECT {
 
 OPTION {
 	padding: 0 8px
+}
+
+LABEL {
+	display: block;
+	line-height: 18px
+}
+
+LABEL.inline {
+	display: inline-block;
+	line-height: 18px;
+	margin-bottom: 10px
 }
