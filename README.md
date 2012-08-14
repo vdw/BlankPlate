@@ -42,14 +42,14 @@ Directory structure:
         jquery-1.7.2.min.js
     styles/                 <!-- styles folder-->
         buttons.css         <!-- buttons and colors-->
-        diagns.css          <!-- css diagnostics-->
+        diagnostics.css     <!-- css diagnostics-->
         helpers.css         <!-- helpers-->
         ie.css              <!-- almost empty to put your ie rules-->
         inputs.css          <!-- basic rules for inputs-->
         media.css           <!-- media queries-->
         reset.css           <!-- a good reset-->
         styles.css          <!-- almost empty to put your main rules-->
-        typo.css            <!-- typography rules-->
+        typography.css      <!-- typography rules-->
     index.html              <!-- basic HTML5 structure-->
     demo.html               <!-- a demo page-->
     LICENCE.txt             <!-- licence-->
