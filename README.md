@@ -46,6 +46,7 @@ Directory structure:
         helpers.css         <!-- helpers-->
         ie.css              <!-- almost empty to put your ie rules-->
         inputs.css          <!-- basic rules for inputs-->
+        media.css           <!-- media queries-->
         reset.css           <!-- a good reset-->
         styles.css          <!-- almost empty to put your main rules-->
         typo.css            <!-- typography rules-->
@@ -57,7 +58,6 @@ Directory structure:
 
 ## Supports
 
- - List item
  - Chrome
  - Firefox 3+
  - Internet Explorer 7+

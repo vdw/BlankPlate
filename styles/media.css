@@ -1,0 +1,81 @@
+/**
+ * BlankPlate | Yet another HTML5 Starter Kit
+ *
+ * BlankPlate Media Queries stylesheet
+ *
+ * @copyright	Copyright 2012, Dimitris Krestos
+ * @license		Apache License, Version 2.0 (http://www.opensource.org/licenses/apache2.0.php)
+ * @link		http://vdw.staytuned.gr
+ * @package		BlankPlate
+ * @version		v1.0
+ */
+
+
+/**
+ * SMARTPHONES
+ *
+ */
+
+/* Smartphones - portrait and landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {}
+
+/* Smartphones - landscape */
+@media only screen and (min-width: 321px) {}
+
+/* Smartphones - portrait */
+@media only screen and (max-width: 320px) {}
+
+/* iPhone 4 */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {}
+
+
+/**
+ * iPADS
+ *
+ */
+
+/* iPads - portrait and landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {}
+
+/* iPads - landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+/* most used */
+}
+/* iPads - portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+/* most used */
+}
+
+
+/**
+ * SCREENS
+ *
+ */
+
+/* Desktops and laptops */
+@media only screen and (min-width: 1224px) {
+/* most used */
+}
+
+/* Large screens */
+@media only screen and (min-width: 1824px) {}
+
+
+/**
+ * ORIENTATION
+ *
+ */
+
+/* General portrait orientation */
+@media only screen and (orientation: portrait) {
+	/* eg */
+	IMG#bg { height: 100% }
+
+}
+
+/* General landscape orientation */
+@media only screen and (orientation: landscape) {
+	/* eg */
+	IMG#bg { width: 100% }
+
+}
