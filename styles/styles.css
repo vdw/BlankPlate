@@ -5,9 +5,9 @@
  *
  * @copyright	Copyright 2012, Dimitris Krestos
  * @license		Apache License, Version 2.0 (http://www.opensource.org/licenses/apache2.0.php)
- * @link		http://vdw.staytuned.gr
+ * @link		http://vdw.staytuned.gr/html5-starter-kit-blankplate/
  * @package		BlankPlate
- * @version		v1.0
+ * @version		v1.0.0
  */
 
 /**
@@ -15,6 +15,7 @@
  *
  */
 BODY {
+	/* Override typography */
 	color: #686868;
 	font-family: 'Open Sans', sans-serif;
 
@@ -50,7 +51,7 @@ NAV UL {
  * Your side bar rules
  */
 ASIDE {
-	float: left;
+	float: left
 }
 
 /**
@@ -63,6 +64,7 @@ SECTION#body {
 
 ARTICLE {}
 
+/* For the BareGrid system */
 .column {
 	background-color: #EEE;
 	border: 1px solid #DDD;

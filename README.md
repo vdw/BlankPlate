@@ -42,7 +42,9 @@ Directory structure:
         jquery-1.7.2.min.js
     styles/                 <!-- styles folder-->
         buttons.css         <!-- buttons and colors-->
+        conditions.css      <!-- conditional css rules-->
         diagnostics.css     <!-- css diagnostics-->
+        grid.css            <!-- BareGrid - a grid system-->
         helpers.css         <!-- helpers-->
         ie.css              <!-- almost empty to put your ie rules-->
         inputs.css          <!-- basic rules for inputs-->
@@ -53,7 +55,7 @@ Directory structure:
     index.html              <!-- basic HTML5 structure-->
     demo.html               <!-- a demo page-->
     LICENCE.txt             <!-- licence-->
-    README.md               <!-- readme-->
+    README.md               <!-- readme - this file-->
     TODO.txt                <!-- next steps-->
 
 ## Supports
