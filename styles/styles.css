@@ -25,7 +25,7 @@ BODY {
 
 #wrapper {
 	margin: 0 auto;
-	width: 960px;
+	max-width: 960px;
 }
 
 /**
@@ -62,6 +62,13 @@ SECTION#body {
 }
 
 ARTICLE {}
+
+.column {
+	background-color: #EEE;
+	border: 1px solid #DDD;
+	margin-bottom: 14px;
+	text-align: center;
+}
 
 /**
  * CONTACT
