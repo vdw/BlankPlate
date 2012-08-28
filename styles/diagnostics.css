@@ -3,6 +3,9 @@
  *
  * BlankPlate Diagnostics stylesheet
  *
+ * Normally you don't have to make any changes in this file.
+ * Your changes should be placed in styles.css file.
+ *
  * @copyright	Copyright 2012, Dimitris Krestos
  * @license		Apache License, Version 2.0 (http://www.opensource.org/licenses/apache2.0.php)
  * @link		http://vdw.staytuned.gr/html5-starter-kit-blankplate/
@@ -13,6 +16,7 @@
 /**
  * EMPTY BLOCK ELEMENTS
  * Mark the empty list items, anchor inside list items and paragraphs
+ * -------------------------------------------------------------------------------------------------
  */
 P:empty:before, LI:empty:before, LI > *:empty:before { /* The :empty selector is supported in all major browsers, except IE8 and earlier. */
 	border-bottom: 1px dotted fuchsia !important;
@@ -23,6 +27,7 @@ P:empty:before, LI:empty:before, LI > *:empty:before { /* The :empty selector is
 /**
  * EMPTY IMAGE ATTRIBUTES
  * Mark images with empty or no alt and title attributes
+ * -------------------------------------------------------------------------------------------------
  */
 IMG[alt=''], IMG:not([alt]), IMG[title=''], IMG:not([title]) { /* IE8 and earlier do not support the :not selector. */
 	border: 1px dotted fuchsia !important;
@@ -32,6 +37,7 @@ IMG[alt=''], IMG:not([alt]), IMG[title=''], IMG:not([title]) { /* IE8 and earlie
 /**
  * EMPTY ANCHOR ATTRIBUTES
  * Mark anchors with empty title or href attributes
+ * -------------------------------------------------------------------------------------------------
  */
 A[title=''], A[href=''] { /* For [attribute=value] to work in IE8 and earlier, a <!DOCTYPE> must be declared. */
 	border-bottom: 1px dotted fuchsia !important;

@@ -13,6 +13,7 @@
 /**
  * FIREFOX
  * Your rules for Firefox browser, all versions
+ * -------------------------------------------------------------------------------------------------
  */
 @-moz-document url-prefix() {
 	.opera { display: none }
@@ -22,6 +23,7 @@
 /**
  * OPERA
  * Your rules for Opera browser, all versions
+ * -------------------------------------------------------------------------------------------------
  */
 @media all and (-webkit-min-device-pixel-ratio:10000), not all and (-webkit-min-device-pixel-ratio:0) { /* Not working with Opera 12*/
 	.firefox { display: none }
@@ -31,6 +33,7 @@
 /**
  * SAFARI
  * Your rules for Safari browser, all versions
+ * -------------------------------------------------------------------------------------------------
  */
 @media screen and (-webkit-min-device-pixel-ratio:0) {
 	.firefox { display: none }

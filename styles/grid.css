@@ -1,7 +1,12 @@
 /**
  * BlankPlate | Yet another HTML5 Starter Kit
  *
- * BlankPlate BareGrid system stylesheet
+ * BlankPlate BareGrid stylesheet
+ *
+ * BareGrid is a grid system based on percentages.
+ *
+ * Normally you don't have to make any changes in this file.
+ * Your changes should be placed in styles.css file.
  *
  * @copyright	Copyright 2012, Dimitris Krestos
  * @license		Apache License, Version 2.0 (http://www.opensource.org/licenses/apache2.0.php)
@@ -19,6 +24,7 @@
 /**
  * ROW
  *
+ * -------------------------------------------------------------------------------------------------
  */
 .row {
 	display: block;
@@ -32,6 +38,7 @@
 /**
  * COLUMN
  *
+ * -------------------------------------------------------------------------------------------------
  */
 .column {
 	display: block;
@@ -41,6 +48,7 @@
 /**
  * WIDTHS
  *
+ * -------------------------------------------------------------------------------------------------
  */
 .one > .column {
 	width: 100.000%
@@ -82,6 +90,7 @@
 /**
  * OFFSETS
  *
+ * -------------------------------------------------------------------------------------------------
  */
 .column.second {
 	margin-left: 08.3333%
@@ -115,4 +124,43 @@
 }
 .column.twelveth {
 	margin-left: 91.6663%
+}
+
+/**
+ * FILLS
+ *
+ * -------------------------------------------------------------------------------------------------
+ */
+.column.eleven {
+	width: 91.6667%
+}
+.column.ten {
+	width: 90.9091%
+}
+.column.nine {
+	width: 90.0000%
+}
+.column.eight {
+	width: 88.8889%
+}
+.column.seven {
+	width: 87.5000%
+}
+.column.six {
+	width: 85.7143%
+}
+.column.five {
+	width: 83.3334%
+}
+.column.four {
+	width: 80.0000%
+}
+.column.three {
+	width: 75.0000%
+}
+.column.two {
+	width: 66.6667%
+}
+.column.one {
+	width: 50.0000%
 }

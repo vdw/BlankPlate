@@ -1,7 +1,10 @@
 /**
  * BlankPlate | Yet another HTML5 Starter Kit
  *
- * BlankPlate basic Typography stylesheet
+ * BlankPlate Basic Typography stylesheet
+ *
+ * Normally you don't have to make any changes in this file.
+ * Your changes should be placed in styles.css file.
  *
  * @copyright	Copyright 2012, Dimitris Krestos
  * @license		Apache License, Version 2.0 (http://www.opensource.org/licenses/apache2.0.php)
@@ -13,13 +16,16 @@
 /**
  * FONTS
  * A font face implementation
+ * -------------------------------------------------------------------------------------------------
  */
+/*
 @font-face {
 	font-family: 'TheDummyFontID';
 	src: url('fonts/dummyfont.eot'); /* IE6–8 */
 
 	/* FF3.6+, IE9, Chrome6+, Saf5.1+ */
 	/* Saf3—5, Chrome4+, FF3.5, Opera 10+ */
+/*
 	src: url('fonts/dummyfont.eot?#iefix') format('embedded-opentype'),
 		 url('fonts/dummyfont.woff') format('woff'),
 		 url('fonts/dummyfont.ttf') format('truetype'),
@@ -27,10 +33,11 @@
 	font-weight: normal;
 	font-style: normal;
 }
-
+*/
 /**
  * TYPOGRAPHY
  * A basic declaration of common elements
+ * -------------------------------------------------------------------------------------------------
  */
 BODY {
 	color: #686868;
@@ -38,6 +45,7 @@ BODY {
 
 	/*
 	Some basic font stacks from cssfontstack.com
+
 	Sans Serif
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
@@ -57,46 +65,46 @@ BODY {
 	*/
 
 	/* Ratio ~1.48 */
-	font-size: 13px;
-	line-height: 18px
+	font-size: 0.813em; 	/* ~13px */
+	line-height: 1.385em; 	/* ~18px */
 }
 
 A {
-	color: #000;
-	text-decoration: none;
+	color: black;
+	text-decoration: none
 }
 
 A:hover {
 	text-decoration: underline
 }
 
-H1, H2, H3, H4, H5, H6 {
-	font-family: Helvetica, "Helvetica Neue", Arial, sans-serif
-}
-
-/* Ratio ~1.96 */
 H1 {
 	color: #333;
-	font-size: 30px;
-	line-height: 44px
+	font-size: 2.308em; 	/* 30px */
+	line-height: 1.500em; 	/* 44px */
 }
 
 H2 {
 	color: #333;
-	font-size: 24px;
-	line-height: 36px
+	font-size: 1.846em; 	/* 24px */
+	line-height: 1.500em; 	/* 36px */
 }
 
 H3 {
 	color: #333;
-	font-size: 18px;
-	line-height: 27px
+	font-size: 1.385em; 	/* 18px */
+	line-height: 1.500em; 	/* 27px */
 }
 
 H4, H5, H6 {
-	color: #666;
-	font-size: 18px;
-	line-height: 27px
+	color: #333;
+	font-size: 1.231em; 	/* 16px */
+	line-height: 1.500em; 	/* 24px */
+}
+
+H1 A, H2 A, H3 A, H4 A, H5 A, H6 A {
+	color: inherit;
+	font-weight: inherit
 }
 
 HR {
@@ -104,22 +112,20 @@ HR {
 }
 
 P {
-	line-height: 18px;
-	margin-bottom: 14px
+	line-height: 1.385em;
+	margin-bottom: 1.077em;	/* ~ line-height * 0.75 */
 }
 
-/* Hide empty paragraphs */
-P:empty {
+P:empty { /* Hide empty paragraphs */
 	display: none
 }
 
-/* Horizontal & vertical list */
-UL, OL {
-	margin: 14px 0 14px 20px
+UL, OL { /* Horizontal & vertical list */
+	margin: 1.077em 0 1.077em 1.538em; /*  14px 0 14px 20px */
 }
 
 UL LI, OL LI {
-	line-height: 18px
+	line-height: 1.385em
 }
 
 UL.vertical {
@@ -141,35 +147,34 @@ UL.horizontal > LI {
 }
 
 BLOCKQUOTE {
-	border-left: 4px solid #EEE;
+	border-left: 0.308em solid #EEE; /* 4px */
 	color: #666;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	margin-left: 20px;
-	padding-left: 10px
+	margin-bottom: 0.769em; /* 10px */
+	margin-left: 1.538em; 	/* 20px */
+	margin-top: 0.769em; 	/* 10px */
+	padding-left: 0.769em; 	/* 10px */
 }
 
 PRE {
 	color: #333;
 	display: block;
 	font-family: Courier, 'Courier New', monospace;
-	margin: 0 2px;
-	padding: 2px 4px
+	margin: 0 0.154em; 			/* 0 2px */
+	padding: 0.154em 0.308em; 	/* 2px 4px */
 }
 
 CODE {
 	background-color: #F8F8F8;
 	border: 1px solid #CCC;
-	border-radius: 3px;
+	border-radius: 0.231em; 	/* 3px */
 	color: #333;
 	display: block;
 	font-family: Courier, 'Courier New', monospace;
-	margin: 0 2px;
-	padding: 2px 4px
+	margin: 0 0.154em; 			/* 0 2px */
+	padding: 0.154em 0.308em; 	/* 2px 4px */
 }
 
-/* Based on Monokai scheme colors */
-CODE.monokai {
+CODE.monokai { /* Based on Monokai scheme colors */
 	background-color: #272822;
 	color: #FB4383
 }
@@ -178,61 +183,35 @@ P > CODE {
 	display: inline-block
 }
 
-/* Capitalise first letter of the paragraph */
-ARTICLE.capitalise H2 + P:first-letter {
-	font-size: 36px;
-	float: left;
-	letter-spacing: 4px;
-	margin-top: 6px
-}
-
-P B,
-LI B,
-P STRONG,
-LI STRONG {
+P B, LI B, P STRONG, LI STRONG {
 	font-weight: bold
 }
 
-P I,
-LI I,
-P EM,
-LI EM {
+P I, LI I, P EM, LI EM {
 	font-style: italic
+}
+
+ARTICLE.capitalise H2 + P:first-letter { /* Capitalise first letter of the paragraph */
+	font-size: 2.769em; 	/* 36px */
+	float: left;
+	letter-spacing: 0.111em;/* 4px */
+	margin-top: 0.167em; 	/* 6px */
 }
 
 ARTICLE UL {
 	list-style: disc outside none;
-	margin-left: 34px
+	margin-left: 2.615em; 	/* 34px */
 }
 
 ARTICLE OL {
 	list-style: decimal outside none;
-	margin-left: 34px
+	margin-left: 2.615em; 	/* 34px */
 }
 
-/* Styles for imput's placeholder */
-input::-webkit-input-placeholder,
-textarea::-webkit-input-placeholder {
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder { /* Styles for imput's placeholder */
 	color: #C0C0C0
 }
 
-input:-moz-placeholder,
-textarea:-moz-placeholder {
+input:-moz-placeholder, textarea:-moz-placeholder {
 	color: #C0C0C0
-}
-
-/* Based on Golden Ratio */
-.ratio13 {
-	font-size: 13px;
-	line-height: 16px
-}
-
-.ratio14 {
-	font-size: 14px;
-	line-height: 26px
-}
-
-.ratio15 {
-	font-size: 15px;
-	line-height: 27px
 }

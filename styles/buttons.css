@@ -3,6 +3,9 @@
  *
  * BlankPlate Buttons stylesheet
  *
+ * Normally you don't have to make any changes in this file.
+ * Your changes should be placed in styles.css file.
+ *
  * @copyright	Copyright 2012, Dimitris Krestos
  * @license		Apache License, Version 2.0 (http://www.opensource.org/licenses/apache2.0.php)
  * @link		http://vdw.staytuned.gr/html5-starter-kit-blankplate/
@@ -13,6 +16,7 @@
 /**
  * BUTTONS
  * Default grey button (based on Google styles)
+ * -------------------------------------------------------------------------------------------------
  */
 .btn {
 	background-color: #F5F5F5;
@@ -67,6 +71,7 @@ A.btn {
 /**
  * BLUE BUTTON
  * Blue color for buttons
+ * -------------------------------------------------------------------------------------------------
  */
 .blue {
 	background-color: #4D90FE;
@@ -86,6 +91,7 @@ A.btn {
 /**
  * RED BUTTON
  * Red color for buttons
+ * -------------------------------------------------------------------------------------------------
  */
 .red {
 	background-color: #D14836;
@@ -104,6 +110,7 @@ A.btn {
 /**
  * YELLOW BUTTON
  * Yellow color for buttons
+ * -------------------------------------------------------------------------------------------------
  */
 .yellow {
 	background-color: #FFE86C;
@@ -122,6 +129,7 @@ A.btn {
 /**
  * GREEN BUTTON
  * Green color for buttons
+ * -------------------------------------------------------------------------------------------------
  */
 .green {
 	background-color: #35AA47;

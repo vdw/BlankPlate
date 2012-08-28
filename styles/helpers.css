@@ -3,6 +3,9 @@
  *
  * BlankPlate Helpers stylesheet
  *
+ * Normally you don't have to make any changes in this file.
+ * Your changes should be placed in styles.css file.
+ *
  * @copyright	Copyright 2012, Dimitris Krestos
  * @license		Apache License, Version 2.0 (http://www.opensource.org/licenses/apache2.0.php)
  * @link		http://vdw.staytuned.gr/html5-starter-kit-blankplate/
@@ -13,6 +16,7 @@
 /**
  * HELPERS
  * Some useful rules
+ * -------------------------------------------------------------------------------------------------
  */
 
  /* Selection */
@@ -27,22 +31,26 @@
 }
 
 /* Hide stuff */
-.invisible {
-	/* IE7- */
-	opacity: 0; /* Chrome 4+, FF2+, Saf3.1+, Opera 9+, IE9, iOS 3.2+, Android 2.1+ */
-		filter: alpha(opacity=0); /* IE6-IE8 */
-
-	border: none
-}
-
-.hidden {
+.hide {
 	display: none;
 	visibility: hidden
 }
 
-.text_hide {
+.hide_text {
 	color: transparent;
 	text-indent: -999
+}
+
+.hide_block {
+	visibility: hidden;
+}
+
+.invisible {
+	/* IE7- */
+	opacity: 0; /* Chrome 4+, FF2+, Saf3.1+, Opera 9+, IE9, iOS 3.2+, Android 2.1+ */
+	 filter: alpha(opacity=0); /* IE6-IE8 */
+
+	border: none
 }
 
 /* Rule based on http://css3please.com/ */
@@ -52,7 +60,9 @@
 			border-radius: 4px; /* Opera 10.5, IE9, Saf5, Chrome, FF4, iOS 4, Android 2.1+ */
 
 	/* useful if you don't want a bg color from leaking outside the border: */
-	-moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
+	-webkit-background-clip: padding-box;
+	   -moz-background-clip: padding;
+	        background-clip: padding-box;
 }
 
 /* Rule based on http://css3please.com/ */
@@ -64,6 +74,11 @@
 	background-image:     -ms-linear-gradient(top, #FFF, #F4F4F4); /* IE10 */
 	background-image:      -o-linear-gradient(top, #FFF, #F4F4F4); /* Opera 11.10+ */
 	background-image:         linear-gradient(to bottom, #FFF, #F4F4F4);
+}
+
+.opacity {
+	opacity: 0.5;
+	 filter: alpha(opacity=50); /* IE8 and earlier */
 }
 
 /* Rule based on http://css3please.com/ */
@@ -99,4 +114,20 @@
 	font-size: 1px;
 	height: 0px;
 	line-height: 0
+}
+
+/* Golden Ratio (base is 16px) */
+.ratio13 {
+	font-size: 0.813em; 	/* 13px */
+	line-height: 1.231em; 	/* 16px */
+}
+
+.ratio14 {
+	font-size: 0.875em;		/* 14px */
+	line-height: 1.857em; 	/* 26px */
+}
+
+.ratio15 {
+	font-size: 1.154em; 	/* 15px */
+	line-height: 1.800em; 	/* 27px */
 }

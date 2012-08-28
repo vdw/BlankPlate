@@ -13,15 +13,10 @@
 /**
  * WORLD
  *
+ * -------------------------------------------------------------------------------------------------
  */
 BODY {
-	/* Override typography */
-	color: #686868;
-	font-family: 'Open Sans', sans-serif;
-
-	/* Ratio ~1.48 */
-	font-size: 13px;
-	line-height: 18px;
+	font-size: 13px; /* Override typography */
 }
 
 #wrapper {
@@ -32,23 +27,25 @@ BODY {
 /**
  * HEADER
  * Your header rules
+ * -------------------------------------------------------------------------------------------------
  */
 HEADER {}
 
 /**
  * NAVIGATION
  * Your horizontal (global) navigation rules
+ * -------------------------------------------------------------------------------------------------
  */
 NAV {}
 
-/* Level 0 */
-NAV UL {
+NAV UL { /* Level 0 */
 	float: left;
 }
 
 /**
  * ASIDE
  * Your side bar rules
+ * -------------------------------------------------------------------------------------------------
  */
 ASIDE {
 	float: left
@@ -57,24 +54,19 @@ ASIDE {
 /**
  * BODY
  * Your content rules
+ * -------------------------------------------------------------------------------------------------
  */
 SECTION#body {
 	float: left;
+	width: 100%;
 }
 
 ARTICLE {}
 
-/* For the BareGrid system */
-.column {
-	background-color: #EEE;
-	border: 1px solid #DDD;
-	margin-bottom: 14px;
-	text-align: center;
-}
-
 /**
  * CONTACT
  * Your form rules
+ * -------------------------------------------------------------------------------------------------
  */
 .contact FORM {}
 
@@ -89,6 +81,7 @@ ARTICLE {}
 /**
  * FOOTER
  * Your footer rules
+ * -------------------------------------------------------------------------------------------------
  */
 FOOTER {
 	padding: 1em 0 2em 0;
