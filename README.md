@@ -57,21 +57,27 @@ Directory structure:
     README.md               <!-- readme - this file-->
     TODO.txt                <!-- next steps-->
 
-## Supports
+## Browser support
 
- - Chrome
+ - Chrome 1+
  - Firefox 3+
  - Internet Explorer 7+
  - Opera 10+
  - Safari 4+
 
-## Demo
+## Demostration
 
 A demo page is available [here][1].
 
-## License
+## Credits
+
+Thanks to [Vassilis Rodokanakis][3] blankplate can be integrated through [blankplate-rails][4] gem with Rails Asset Pipeline!
+
+## Copyright and license
 
 Copyright (©) 2012 Dimitris Krestos. See [LICENSE][2] for details.
 
   [1]: https://dl.dropbox.com/u/28039153/blankplate/demo.html
   [2]: https://dl.dropbox.com/u/28039153/blankplate/LICENSE.txt
+  [3]: https://github.com/vrodokanakis
+  [4]: https://github.com/vrodokanakis/blankplate-rails
