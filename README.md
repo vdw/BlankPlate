@@ -1,10 +1,9 @@
 # Blankplate
 
 ## Yet another HTML5/CSS3 Starter Kit
-
-## What is this?
-
 This is an alternative solution to save you time in frontend developing.
+
+[Check out the demo][1]
 
 ## How this will help you
 
@@ -70,4 +69,9 @@ Directory structure:
 
 A demo page is available [here][1].
 
+## License
+
+Copyright (©) 2012 Dimitris Krestos. See [LICENSE][2] for details.
+
   [1]: https://dl.dropbox.com/u/28039153/blankplate/demo.html
+  [2]: https://dl.dropbox.com/u/28039153/blankplate/LICENSE.txt
