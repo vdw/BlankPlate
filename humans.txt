@@ -1,0 +1,32 @@
+/* the humans responsible & colophon */
+/* humanstxt.org */
+
+  /* TEAM */
+  Chief Developer:
+  Site:
+  Linkedin:
+  Twitter:
+  Location:
+
+  Web Designer:
+  Site:
+  Linkedin:
+  Twitter:
+  Location:
+
+  Web Developer:
+  Site:
+  Linkedin:
+  Twitter:
+  Location:
+
+
+  /* THANKS */
+  Name: name or url
+
+
+  /* SITE */
+  Last update:
+  Standards:
+  Components:
+  Software:
