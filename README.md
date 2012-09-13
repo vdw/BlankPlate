@@ -29,33 +29,37 @@ It does not interfere with your design, basically there are not predefine colors
 
 Directory structure:
 
-    fonts/                  <!-- dummy fonts to use with @font-face-->
+    fonts/                          <!-- dummy fonts to use with @font-face-->
         dummyfont.eot
         dummyfont.otf
         dummyfont.svg
         dummyfont.ttf
         dummyfont.woff
-    images/                 <!-- for your images with a dummy image-->
+    images/                         <!-- for your images with a dummy image-->
         dummy.png
-    js/                     <!-- for your js files with a minified jquery 1.7.2-->
-        jquery-1.7.2.min.js
-    styles/                 <!-- styles folder-->
-        buttons.css         <!-- buttons and colors-->
-        conditions.css      <!-- conditional css rules-->
-        diagnostics.css     <!-- css diagnostics-->
-        grid.css            <!-- BareGrid - a grid system-->
-        helpers.css         <!-- helpers-->
-        ie.css              <!-- almost empty to put your ie rules-->
-        inputs.css          <!-- basic rules for inputs-->
-        media.css           <!-- media queries-->
-        reset.css           <!-- a good reset-->
-        styles.css          <!-- almost empty to put your main rules-->
-        typography.css      <!-- typography rules-->
-    index.html              <!-- basic HTML5 structure-->
-    demo.html               <!-- a demo page-->
-    LICENCE.txt             <!-- licence-->
-    README.md               <!-- readme - this file-->
-    TODO.txt                <!-- next steps-->
+    js/                             <!-- for your js files with a minified jquery 1.8.1-->
+        initializers.js             <!-- initializers for your js scripts-->
+        plugins.js                  <!-- your custom js scripts-->
+        vendor/
+            css3-mediaqueries.js
+            jquery-1.8.1.min.js
+    styles/                         <!-- styles folder-->
+        buttons.css                 <!-- buttons and colors-->
+        conditions.css              <!-- conditional css rules-->
+        diagnostics.css             <!-- css diagnostics-->
+        grid.css                    <!-- BareGrid - a grid system-->
+        helpers.css                 <!-- helpers-->
+        ie.css                      <!-- almost empty to put your ie rules-->
+        inputs.css                  <!-- basic rules for inputs-->
+        media.css                   <!-- media queries-->
+        reset.css                   <!-- a good reset-->
+        styles.css                  <!-- almost empty to put your main rules-->
+        typography.css              <!-- typography rules-->
+    index.html                      <!-- basic HTML5 structure-->
+    demo.html                       <!-- a demo page-->
+    LICENCE.txt                     <!-- licence-->
+    README.md                       <!-- readme - this file-->
+    TODO.txt                        <!-- next steps-->
 
 ## Browser support
 
