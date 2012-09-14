@@ -30,6 +30,28 @@
 	color: #EEE
 }
 
+.unselectable {
+	-webkit-user-select: none;
+	 -khtml-user-select: none;
+	   -moz-user-select: -moz-none;
+		 -o-user-select: none;
+			user-select: none
+}
+
+/* Positioning */
+.v_center {
+	display: table-cell;
+	vertical-align: middle
+}
+
+.float_left {
+	float: left
+}
+
+.float_right {
+	float: right
+}
+
 /* Hide stuff */
 .hide {
 	display: none;
@@ -42,12 +64,12 @@
 }
 
 .hide_block {
-	visibility: hidden;
+	visibility: hidden
 }
 
 .invisible {
 	/* IE7- */
-	opacity: 0; /* Chrome 4+, FF2+, Saf3.1+, Opera 9+, IE9, iOS 3.2+, Android 2.1+ */
+	opacity: 0.0; /* Chrome 4+, FF2+, Saf3.1+, Opera 9+, IE9, iOS 3.2+, Android 2.1+ */
 	 filter: alpha(opacity=0); /* IE6-IE8 */
 
 	border: none
