@@ -40,7 +40,7 @@
  * -------------------------------------------------------------------------------------------------
  */
 BODY {
-	color: #686868;
+	color: #404040;
 	font-family: Georgia, Palatino, "Palatino Linotype", Times, "Times New Roman", serif;
 
 	/*
@@ -64,7 +64,7 @@ BODY {
 	font-family: "Lucida Sans Typewriter", "Lucida Console", Monaco, "Bitstream Vera Sans Mono", monospace;
 	*/
 
-	/* Ratio ~1.48 */
+	/* Ratio ~1.38 */
 	font-size: 0.813em; 	/* ~13px */
 	line-height: 1.385em; 	/* ~18px */
 }
@@ -79,27 +79,37 @@ A:hover {
 }
 
 H1 {
-	color: #333;
+	font-size: 2.769em; 	/* 36px */
+	line-height: 1.500em; 	/* 54px */
+}
+
+H2 {
 	font-size: 2.308em; 	/* 30px */
 	line-height: 1.500em; 	/* 44px */
 }
 
-H2 {
-	color: #333;
+H3 {
 	font-size: 1.846em; 	/* 24px */
 	line-height: 1.500em; 	/* 36px */
 }
 
-H3 {
-	color: #333;
-	font-size: 1.385em; 	/* 18px */
+H4 {
+	font-size: 1.538em; 	/* 20px */
 	line-height: 1.500em; 	/* 27px */
 }
 
-H4, H5, H6 {
-	color: #333;
+H5 {
+	font-size: 1.385em; 	/* 18px */
+	line-height: 1.500em; 	/* 24px */
+}
+
+H6 {
 	font-size: 1.231em; 	/* 16px */
 	line-height: 1.500em; 	/* 24px */
+}
+
+H1, H2, H3, H4, H5, H6 {
+	color: #333
 }
 
 H1 A, H2 A, H3 A, H4 A, H5 A, H6 A {
