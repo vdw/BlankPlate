@@ -85,8 +85,8 @@ P4////fwAJ+wP9CNHoHgAAAABJRU5ErkJggg==) repeat-x top left;
 /* Html
 <div class="accessibility">
 	TEXT SIZE
-	<a href="/el/home">A<span>-</span></a>
-	<a href="/el/home">A<span>+</span></a>
+	<a href="#">A<span>-</span></a>
+	<a href="#">A<span>+</span></a>
 </div>
 */
 .accessibility A:first-child {

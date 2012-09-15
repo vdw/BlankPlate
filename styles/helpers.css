@@ -44,6 +44,10 @@
 	vertical-align: middle
 }
 
+.h_center {
+	margin: 0 auto
+}
+
 .float_left {
 	float: left
 }
