@@ -44,6 +44,7 @@ Directory structure:
             css3-mediaqueries.js
             jquery-1.8.1.min.js
     styles/                         <!-- styles folder-->
+        base64.css                  <!-- base64 encoded pngs-->
         buttons.css                 <!-- buttons and colors-->
         conditions.css              <!-- conditional css rules-->
         diagnostics.css             <!-- css diagnostics-->
@@ -53,6 +54,7 @@ Directory structure:
         inputs.css                  <!-- basic rules for inputs-->
         media.css                   <!-- media queries-->
         reset.css                   <!-- a good reset-->
+        snippets.css                <!-- useful snippets of css and html code-->
         styles.css                  <!-- almost empty to put your main rules-->
         typography.css              <!-- typography rules-->
     index.html                      <!-- basic HTML5 structure-->
@@ -79,9 +81,22 @@ Thanks to [Vassilis Rodokanakis][3] blankplate can be integrated through [blankp
 
 ## Copyright and license
 
-Copyright (©) 2012 Dimitris Krestos. See [LICENSE][2] for details.
+Copyright 2012 Dimitris Krestos
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+[http://www.apache.org/licenses/LICENSE-2.0][5]
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
 
   [1]: https://dl.dropbox.com/u/28039153/blankplate/demo.html
   [2]: https://dl.dropbox.com/u/28039153/blankplate/LICENSE.txt
   [3]: https://github.com/vrodokanakis
   [4]: https://github.com/vrodokanakis/blankplate-rails
+  [5]: http://www.apache.org/licenses/LICENSE-2.0

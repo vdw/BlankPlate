@@ -79,31 +79,26 @@ A:hover {
 }
 
 H1 {
-	font-size: 2.769em; 	/* 36px */
-	line-height: 1.500em; 	/* 54px */
-}
-
-H2 {
 	font-size: 2.308em; 	/* 30px */
 	line-height: 1.500em; 	/* 44px */
 }
 
-H3 {
+H2 {
 	font-size: 1.846em; 	/* 24px */
 	line-height: 1.500em; 	/* 36px */
 }
 
-H4 {
+H3 {
 	font-size: 1.538em; 	/* 20px */
 	line-height: 1.500em; 	/* 27px */
 }
 
-H5 {
+H4 {
 	font-size: 1.385em; 	/* 18px */
 	line-height: 1.500em; 	/* 24px */
 }
 
-H6 {
+H5, H6 {
 	font-size: 1.231em; 	/* 16px */
 	line-height: 1.500em; 	/* 24px */
 }

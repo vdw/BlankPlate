@@ -14,69 +14,6 @@
  */
 
 /**
- * BASE64 PNGs
- * Transparent, black and white png image for backgrounds
- * -------------------------------------------------------------------------------------------------
- */
-
-/* IE6/7 ungly hack for base64 enconding - http://venodesigns.net*/
-/*
-Content-Type: multipart/related; boundary="_"
-
---_
-Content-Location:1
-Content-Type: image/png
-Content-Transfer-Encoding:base64
-
-iVBORw0KGgoAAAANSUhEUgAAAAEAAABnCAIAAABO2r+ZAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAG9J
-REFUeNp8T9sNgDAIvJCu4Ay6rEO5hXEBP9yB0xLa0Fr9aLgHBxTrdgpIASB8HoiAXf/VaJmSbbj1df1jnpyn1qfViF+e31T3Rxw8
-yzSez4u4u89medWMtWiZB197jYP8t1dv878u85T247oFGAC4z6tdlRsLNAAAAABJRU5ErkJggg==
---_--
-
---_
-Content-Location:2
-Content-Type: image/png
-Content-Transfer-Encoding:base64
-
-iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGD4DwABBAEAfbLI3wAAAABJRU5ErkJggg==
---_--
-
---_
-Content-Location:3
-Content-Type: image/png
-Content-Transfer-Encoding:base64
-
-iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWP4////fwAJ+wP9CNHoHgAAAABJRU5ErkJggg==
---_--
-*/
-
-/* Transparent png image */
-.bg_transparent {
-	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAABnCAIAAABO2r+ZAAAAGXRFWHRTb2
-Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAG9JREFUeNp8T9sNgDAIvJCu4Ay6rEO5hXEBP9yB0xLa0Fr9aLgHBxTrdgpIAS
-B8HoiAXf/VaJmSbbj1df1jnpyn1qfViF+e31T3Rxw8yzSez4u4u89medWMtWiZB197jYP8t1dv878u85T247oFGAC4z6tdlRsLNA
-AAAABJRU5ErkJggg==) repeat-x top left;
-
-	*background: transparent url('mhtml:styles/snippets.css!1') repeat-x top left
-}
-
-/* Black png image created with patternify.com */
-.bg_black {
-	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImW
-NgYGD4DwABBAEAfbLI3wAAAABJRU5ErkJggg==) repeat-x top left;
-
-	*background: transparent url('mhtml:styles/snippets.css!2') repeat-x top left
-}
-
-/* White png image created with patternify.com */
-.bg_white {
-	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImW
-P4////fwAJ+wP9CNHoHgAAAABJRU5ErkJggg==) repeat-x top left;
-
-	*background: transparent url('mhtml:styles/snippets.css!3') repeat-x top left
-}
-
-/**
  * TEXT SIZE TOOL
  *
  * -------------------------------------------------------------------------------------------------
@@ -90,17 +27,17 @@ P4////fwAJ+wP9CNHoHgAAAABJRU5ErkJggg==) repeat-x top left;
 </div>
 */
 .accessibility A:first-child {
-	font-size: 14px !important;
+	font-size: 14px !important
 }
 
 .accessibility A SPAN {
 	font-size: 80%;
 	position: relative;
-	top: -0.4em;
+	top: -0.4em
 }
 
 .accessibility A:first-child SPAN {
 	font-size: 80%;
 	position: relative;
-	top: -0.5em;
+	top: -0.5em
 }
