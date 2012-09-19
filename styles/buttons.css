@@ -19,13 +19,19 @@
  * -------------------------------------------------------------------------------------------------
  */
 .btn {
-	background-color: #F5F5F5;
-	background-image: -moz-linear-gradient(center top , #F5F5F5, #F1F1F1);
+	background: #f5f5f5; /* Old browsers */
+	background:  -webkit-linear-gradient(top, #f5f5f5 0%, #f1f1f1 100%); /* Chrome10+, Safari5.1+ */
+	background: 	-moz-linear-gradient(top, #f5f5f5 0%, #f1f1f1 100%); /* FF3.6+ */
+	background: 	 -ms-linear-gradient(top, #f5f5f5 0%, #f1f1f1 100%); /* IE10+ */
+	background: 	  -o-linear-gradient(top, #f5f5f5 0%, #f1f1f1 100%); /* Opera 11.10+ */
+	background: 		-webkit-gradient(linear, left top, left bottom, color-stop(0%, #f5f5f5), color-stop(100%, #f1f1f1)); /* Chrome,Safari4+ */
+	background: 		 linear-gradient(to bottom, #f5f5f5 0%, #f1f1f1 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f5f5f5', endColorstr='#f1f1f1', GradientType=0); /* IE6-8 */
 	border: 1px solid rgb(211, 211, 211);
 	border: 1px solid rgba(0, 0, 0, 0.1);
 	border-radius: 3px;
 	color: #444 !important;
-	cursor: default !important;
+	cursor: pointer !important;
 	display: inline-block;
 	font-size: 13px;
 	height: 28px;
@@ -74,16 +80,28 @@ A.btn {
  * -------------------------------------------------------------------------------------------------
  */
 .blue {
-	background-color: #4D90FE;
-	background-image: -moz-linear-gradient(center top , #4D90FE, #4787ED);
+	background: #4d90fe; /* Old browsers */
+	background:  -webkit-linear-gradient(top, #4d90fe 0%, #4787ed 100%); /* Chrome10+, Safari5.1+ */
+	background: 	-moz-linear-gradient(top, #4d90fe 0%, #4787ed 100%); /* FF3.6+ */
+	background: 	 -ms-linear-gradient(top, #4d90fe 0%, #4787ed 100%); /* IE10+ */
+	background: 	  -o-linear-gradient(top, #4d90fe 0%, #4787ed 100%); /* Opera 11.10+ */
+	background: 		-webkit-gradient(linear, left top, left bottom, color-stop(0%, #4d90fe), color-stop(100%, #4787ed)); /* Chrome,Safari4+ */
+	background: 		 linear-gradient(to bottom, #4d90fe 0%, #4787ed 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4d90fe', endColorstr='#4787ed', GradientType=0); /* IE6-8 */
 	border: 1px solid #3079ED;
 	color: #FFF !important;
 	text-shadow:0 1px 1px rgba(0, 0, 0, 0.25)
 }
 
 .blue:hover {
-	background-color: #357AE8;
-	background-image: -moz-linear-gradient(center top , #4090FE, #357AE8);
+	background: #4090fe; /* Old browsers */
+	background:  -webkit-linear-gradient(top, #4090fe 0%, #357ae8 100%); /* Chrome10+, Safari5.1+ */
+	background: 	-moz-linear-gradient(top, #4090fe 0%, #357ae8 100%); /* FF3.6+ */
+	background: 	 -ms-linear-gradient(top, #4090fe 0%, #357ae8 100%); /* IE10+ */
+	background: 	  -o-linear-gradient(top, #4090fe 0%, #357ae8 100%); /* Opera 11.10+ */
+	background: 		-webkit-gradient(linear, left top, left bottom, color-stop(0%, #4090fe), color-stop(100%, #357ae8)); /* Chrome,Safari4+ */
+	background: 		 linear-gradient(to bottom, #4090fe 0%, #357ae8 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4090fe', endColorstr='#357ae8', GradientType=0); /* IE6-8 */
 	border-color: #2F5887;
 	color: #FFF !important
 }
@@ -94,15 +112,27 @@ A.btn {
  * -------------------------------------------------------------------------------------------------
  */
 .red {
-	background-color: #D14836;
-	background-image: -moz-linear-gradient(center top , #DD4B39, #D14836);
+	background: #dd4b39; /* Old browsers */
+	background:  -webkit-linear-gradient(top, #dd4b39 0%, #d14836 100%); /* Chrome10+, Safari5.1+ */
+	background: 	-moz-linear-gradient(top, #dd4b39 0%, #d14836 100%); /* FF3.6+ */
+	background: 	 -ms-linear-gradient(top, #dd4b39 0%, #d14836 100%); /* IE10+ */
+	background: 	  -o-linear-gradient(top, #dd4b39 0%, #d14836 100%); /* Opera 11.10+ */
+	background: 		-webkit-gradient(linear, left top, left bottom, color-stop(0%, #dd4b39), color-stop(100%, #d14836)); /* Chrome,Safari4+ */
+	background: 		 linear-gradient(to bottom, #dd4b39 0%, #d14836 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#dd4b39', endColorstr='#d14836', GradientType=0); /* IE6-8 */
 	border: 1px solid #D14836;
 	color: #FFF !important
 }
 
 .red:hover {
-	background-color: #D14836;
-	background-image: -moz-linear-gradient(center top , #DD4B39, #C53727);
+	background: #dd4b39; /* Old browsers */
+	background:  -webkit-linear-gradient(top, #dd4b39 0%, #c53727 100%); /* Chrome10+, Safari5.1+ */
+	background: 	-moz-linear-gradient(top, #dd4b39 0%, #c53727 100%); /* FF3.6+ */
+	background: 	 -ms-linear-gradient(top, #dd4b39 0%, #c53727 100%); /* IE10+ */
+	background: 	  -o-linear-gradient(top, #dd4b39 0%, #c53727 100%); /* Opera 11.10+ */
+	background: 		-webkit-gradient(linear, left top, left bottom, color-stop(0%, #dd4b39), color-stop(100%, #c53727)); /* Chrome,Safari4+ */
+	background: 		 linear-gradient(to bottom, #dd4b39 0%, #c53727 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#dd4b39', endColorstr='#c53727', GradientType=0); /* IE6-8 */
 	border-color: #B0281A;
 	color: #FFF !important
 }
@@ -113,15 +143,19 @@ A.btn {
  * -------------------------------------------------------------------------------------------------
  */
 .yellow {
-	background-color: #FFE86C;
-	background-image: -moz-linear-gradient(center top , #FFE86C, #FFE86C);
+	background: #ffe86c; /* Old browsers */
+	background:  -webkit-linear-gradient(top, #ffe86c 0%, #ffe86c 100%); /* Chrome10+, Safari5.1+ */
+	background: 	-moz-linear-gradient(top, #ffe86c 0%, #ffe86c 100%); /* FF3.6+ */
+	background: 	 -ms-linear-gradient(top, #ffe86c 0%, #ffe86c 100%); /* IE10+ */
+	background: 	  -o-linear-gradient(top, #ffe86c 0%, #ffe86c 100%); /* Opera 11.10+ */
+	background: 		-webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffe86c), color-stop(100%, #ffe86c)); /* Chrome,Safari4+ */
+	background: 		 linear-gradient(to bottom, #ffe86c 0%, #ffe86c 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffe86c', endColorstr='#ffe86c', GradientType=0); /* IE6-8 */
 	border: 1px solid #FFE86C;
 	color: #FFF !important
 }
 
 .yellow:hover {
-	background-color: #FFE86C;
-	background-image: -moz-linear-gradient(center top , #FFE86C, #FFE86C);
 	border-color: #E8B463;
 	color: #FFF !important
 }
@@ -132,15 +166,115 @@ A.btn {
  * -------------------------------------------------------------------------------------------------
  */
 .green {
-	background-color: #35AA47;
-	background-image: -moz-linear-gradient(center top , #35AA47, #35AA47);
+	background: #35aa47; /* Old browsers */
+	background:  -webkit-linear-gradient(top, #35aa47 0%, #35aa47 100%); /* Chrome10+, Safari5.1+ */
+	background: 	-moz-linear-gradient(top, #35aa47 0%, #35aa47 100%); /* FF3.6+ */
+	background: 	 -ms-linear-gradient(top, #35aa47 0%, #35aa47 100%); /* IE10+ */
+	background: 	  -o-linear-gradient(top, #35aa47 0%, #35aa47 100%); /* Opera 11.10+ */
+	background: 		-webkit-gradient(linear, left top, left bottom, color-stop(0%, #35aa47), color-stop(100%, #35aa47)); /* Chrome,Safari4+ */
+	background: 		 linear-gradient(to bottom,  #35aa47 0%, #35aa47 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#35aa47', endColorstr='#35aa47', GradientType=0); /* IE6-8 */
 	border: 1px solid #359947;
 	color: #FFF !important
 }
 
 .green:hover {
-	background-color: #35AA47;
-	background-image: -moz-linear-gradient(center top , #35AA47, #1D943B);
+	background: #35aa47; /* Old browsers */
+	background:  -webkit-linear-gradient(top, #35aa47 0%, #1d943b 100%); /* Chrome10+, Safari5.1+ */
+	background: 	-moz-linear-gradient(top, #35aa47 0%, #1d943b 100%); /* FF3.6+ */
+	background: 	 -ms-linear-gradient(top, #35aa47 0%, #1d943b 100%); /* IE10+ */
+	background: 	  -o-linear-gradient(top, #35aa47 0%, #1d943b 100%); /* Opera 11.10+ */
+	background: 		-webkit-gradient(linear, left top, left bottom, color-stop(0%,#35aa47), color-stop(100%, #1d943b)); /* Chrome,Safari4+ */
+	background: 		 linear-gradient(to bottom,  #35aa47 0%, #1d943b 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#35aa47', endColorstr='#1d943b', GradientType=0); /* IE6-8 */
 	border-color: #508C36;
 	color: #FFF !important
 }
+
+/**
+ * CONDITIONS
+ * Conditions for gradient support under IE
+ * -------------------------------------------------------------------------------------------------
+ */
+.ie9 .btn {
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi
+8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2Vydm
+VBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaX
+RzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJS
+Igc3RvcC1jb2xvcj0iI2Y1ZjVmNSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3
+I9IiNmMWYxZjEiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdG
+g9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	filter: none; /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+}
+
+.ie9 .blue {
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi
+8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2Vydm
+VBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaX
+RzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJS
+Igc3RvcC1jb2xvcj0iIzRkOTBmZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3
+I9IiM0Nzg3ZWQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdG
+g9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+)
+}
+
+.ie9 .blue:hover {
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi
+8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2Vydm
+VBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaX
+RzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJS
+Igc3RvcC1jb2xvcj0iIzQwOTBmZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3
+I9IiMzNTdhZTgiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdG
+g9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+)
+}
+
+.ie9 .red {
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi
+8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2Vydm
+VBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaX
+RzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJS
+Igc3RvcC1jb2xvcj0iI2RkNGIzOSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3
+I9IiNkMTQ4MzYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdG
+g9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+)
+}
+
+.ie9 .red:hover {
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi
+8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2Vydm
+VBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaX
+RzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJS
+Igc3RvcC1jb2xvcj0iI2RkNGIzOSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3
+I9IiNjNTM3MjciIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdG
+g9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+)
+}
+
+.ie9 .yellow {
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi
+8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2Vydm
+VBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaX
+RzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJS
+Igc3RvcC1jb2xvcj0iI2ZmZTg2YyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3
+I9IiNmZmU4NmMiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdG
+g9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+)
+}
+
+.ie9 .green {
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi
+8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2Vydm
+VBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaX
+RzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJS
+Igc3RvcC1jb2xvcj0iIzM1YWE0NyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3
+I9IiMzNWFhNDciIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdG
+g9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+)
+}
+
+.ie9 .green:hover {
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi
+8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2Vydm
+VBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaX
+RzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJS
+Igc3RvcC1jb2xvcj0iIzM1YWE0NyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3
+I9IiMxZDk0M2IiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdG
+g9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+)
+}
+
+/* http://www.colorzilla.com/gradient-editor/ */
