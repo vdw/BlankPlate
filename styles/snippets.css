@@ -41,3 +41,23 @@
 	position: relative;
 	top: -0.5em
 }
+
+/**
+ * FLASH MESSAGE BAR
+ *
+ * -------------------------------------------------------------------------------------------------
+ */
+
+/* Html
+<div class="flash">A flash message</div>
+*/
+.flash {
+	background: rgba(0, 0, 0, 0.4);
+	color: white;
+	height: 24px;
+	padding-top: 6px;
+	position: absolute;
+	text-align: center;
+	top: 0;
+	width: 100%
+}
