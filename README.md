@@ -38,6 +38,7 @@ Directory structure:
     images/                         <!-- for your images with a dummy image-->
         dummy.png
     js/                             <!-- for your js files with a minified jquery 1.8.1-->
+        ga.js                       <!-- google analytics tracking code-->
         initializers.js             <!-- initializers for your js scripts-->
         plugins.js                  <!-- your custom js scripts-->
         vendor/
