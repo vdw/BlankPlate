@@ -27,7 +27,6 @@
 	<link rel="stylesheet" type="text/css" href="styles/diagnostics.css">
 
 	<!--[if lte IE 8]>
-	<link rel="stylesheet" type="text/css" href="styles/ie.css">
 	<script src="js/css3-mediaqueries.js"></script>
 	<![endif]-->
 
@@ -36,7 +35,12 @@
 	<!-- GOOGLE ANALYTICS ends -->
 
 </head>
-<body>
+<!--[if lt IE 7]>  <body class="ie ie6 lte9 lte8 lte7"> <![endif]-->
+<!--[if IE 7]>     <body class="ie ie7 lte9 lte8 lte7"> <![endif]-->
+<!--[if IE 8]>     <body class="ie ie8 lte9 lte8">      <![endif]-->
+<!--[if IE 9]>     <body class="ie ie9 lte9">           <![endif]-->
+<!--[if gt IE 9]>  <body class="ie">                    <![endif]-->
+<!--[if !IE]><!--> <body>                               <!--<![endif]-->
 
 <div id="wrapper">
 
