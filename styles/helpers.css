@@ -88,7 +88,7 @@
 	/* useful if you don't want a bg color from leaking outside the border: */
 	-webkit-background-clip: padding-box;
 	   -moz-background-clip: padding;
-	        background-clip: padding-box;
+			background-clip: padding-box;
 }
 
 /* Rule based on http://css3please.com/ */
@@ -96,10 +96,10 @@
 	background-color: #F4F4F4;
 	background-image: -webkit-gradient(linear, left top, left bottom, from(#FFF), to(#F4F4F4)); /* Saf4+, Chrome */
 	background-image: -webkit-linear-gradient(top, #FFF, #F4F4F4); /* Chrome 10+, Saf5.1+, iOS 5+ */
-	background-image:    -moz-linear-gradient(top, #FFF, #F4F4F4); /* FF3.6 */
-	background-image:     -ms-linear-gradient(top, #FFF, #F4F4F4); /* IE10 */
-	background-image:      -o-linear-gradient(top, #FFF, #F4F4F4); /* Opera 11.10+ */
-	background-image:         linear-gradient(to bottom, #FFF, #F4F4F4);
+	background-image:	 -moz-linear-gradient(top, #FFF, #F4F4F4); /* FF3.6 */
+	background-image:	  -ms-linear-gradient(top, #FFF, #F4F4F4); /* IE10 */
+	background-image:	   -o-linear-gradient(top, #FFF, #F4F4F4); /* Opera 11.10+ */
+	background-image:		  linear-gradient(to bottom, #FFF, #F4F4F4);
 }
 
 .opacity {

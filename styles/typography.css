@@ -35,8 +35,8 @@
 }
 */
 /**
- * TYPOGRAPHY
- * A basic declaration of common elements
+ * DOCUMENT FONT
+ * A basic declaration of document font and some font stacks
  * -------------------------------------------------------------------------------------------------
  */
 BODY {
@@ -69,6 +69,11 @@ BODY {
 	line-height: 1.385em; 	/* ~18px */
 }
 
+/**
+ * LINKS
+ *
+ * -------------------------------------------------------------------------------------------------
+ */
 A {
 	color: black;
 	text-decoration: none
@@ -78,6 +83,11 @@ A:hover {
 	text-decoration: underline
 }
 
+/**
+ * HEADINGS
+ *
+ * -------------------------------------------------------------------------------------------------
+ */
 H1 {
 	font-size: 2.308em; 	/* 30px */
 	line-height: 1.500em; 	/* 44px */
@@ -112,6 +122,11 @@ H1 A, H2 A, H3 A, H4 A, H5 A, H6 A {
 	font-weight: inherit
 }
 
+/**
+ * RULERS AND PARAGRAPHS
+ *
+ * -------------------------------------------------------------------------------------------------
+ */
 HR {
 	border-top-color: #CCC
 }
@@ -125,7 +140,12 @@ P:empty { /* Hide empty paragraphs */
 	display: none
 }
 
-UL, OL { /* Horizontal & vertical list */
+/**
+ * LISTS
+ *
+ * -------------------------------------------------------------------------------------------------
+ */
+UL, OL { /* Horizontal & vertical lists */
 	margin: 1.077em 0 1.077em 1.538em; /*  14px 0 14px 20px */
 }
 
@@ -133,11 +153,11 @@ UL LI, OL LI {
 	line-height: 1.385em
 }
 
-UL.vertical {
+UL.vertical { /* Vertical lists */
 	margin: 0
 }
 
-UL.horizontal {
+UL.horizontal { /* Horizontal lists */
 	display: inline;
 	margin: 0
 }
@@ -151,6 +171,11 @@ UL.horizontal > LI {
 	*display: inline;
 }
 
+/**
+ * BLOCKQUOTES AND CODE BOXES
+ *
+ * -------------------------------------------------------------------------------------------------
+ */
 BLOCKQUOTE {
 	border-left: 0.308em solid #EEE; /* 4px */
 	color: #666;
@@ -176,7 +201,7 @@ CODE {
 	display: block;
 	font-family: Courier, 'Courier New', monospace;
 	margin: 0 0.154em; 			/* 0 2px */
-	padding: 0.154em 0.308em; 	/* 2px 4px */
+	padding: 0.077em 0.308em; 	/* 2px 4px */
 }
 
 CODE.monokai { /* Based on Monokai scheme colors */
@@ -184,8 +209,14 @@ CODE.monokai { /* Based on Monokai scheme colors */
 	color: #FB4383
 }
 
+/**
+ * NESTING
+ *
+ * -------------------------------------------------------------------------------------------------
+ */
 P > CODE {
-	display: inline-block
+	display: inline-block;
+	vertical-align: text-bottom;
 }
 
 P B, LI B, P STRONG, LI STRONG {
@@ -213,7 +244,12 @@ ARTICLE OL {
 	margin-left: 2.615em; 	/* 34px */
 }
 
-input::-webkit-input-placeholder, textarea::-webkit-input-placeholder { /* Styles for imput's placeholder */
+/**
+ * PLACEHOLDERS
+ *
+ * -------------------------------------------------------------------------------------------------
+ */
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
 	color: #C0C0C0
 }
 
