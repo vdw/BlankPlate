@@ -43,6 +43,7 @@ Directory structure:
         plugins.js                  <!-- your custom js scripts-->
         vendor/
             css3-mediaqueries.js
+            selectivizr-min.js
             jquery-1.8.1.min.js
     styles/                         <!-- styles folder-->
         base64.css                  <!-- base64 encoded pngs-->
