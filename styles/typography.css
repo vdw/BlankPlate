@@ -215,8 +215,7 @@ CODE.monokai { /* Based on Monokai scheme colors */
  * -------------------------------------------------------------------------------------------------
  */
 P > CODE {
-	display: inline-block;
-	vertical-align: text-bottom;
+	display: inline-block
 }
 
 P B, LI B, P STRONG, LI STRONG {

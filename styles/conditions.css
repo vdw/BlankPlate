@@ -16,6 +16,10 @@
  * -------------------------------------------------------------------------------------------------
  */
 @-moz-document url-prefix() {
+
+	/* Fix text-bottom alignment for inline elements under opera and ie */
+	P > CODE { vertical-align: text-bottom; }
+
 	.opera { display: none }
 	.safari { display: none }
 }
