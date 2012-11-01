@@ -58,8 +58,7 @@
 
 /* Hide stuff */
 .hide {
-	display: none;
-	visibility: hidden
+	display: none
 }
 
 .hide_text {
