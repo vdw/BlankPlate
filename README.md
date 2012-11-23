@@ -48,11 +48,8 @@ Directory structure:
     styles/                         <!-- styles folder-->
         base64.css                  <!-- base64 encoded pngs-->
         buttons.css                 <!-- buttons and colors-->
-        conditions.css              <!-- conditional css rules-->
         diagnostics.css             <!-- css diagnostics-->
-        grid.css                    <!-- BareGrid - a grid system-->
         helpers.css                 <!-- helpers-->
-        ie.css                      <!-- almost empty to put your ie rules-->
         inputs.css                  <!-- basic rules for inputs-->
         media.css                   <!-- media queries-->
         reset.css                   <!-- a good reset-->
@@ -69,7 +66,7 @@ Directory structure:
 
  - Chrome 1+
  - Firefox 3+
- - Internet Explorer 7+
+ - Internet Explorer 7+ *
  - Opera 10+
  - Safari 4+
 
