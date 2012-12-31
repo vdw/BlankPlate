@@ -44,7 +44,8 @@ Directory structure:
         vendor/
             css3-mediaqueries.js
             selectivizr-min.js
-            jquery-1.8.1.min.js
+            jquery-1.8.3.min.js
+            jquery.placeholder.min.js
     styles/                         <!-- styles folder-->
         base64.css                  <!-- base64 encoded pngs-->
         buttons.css                 <!-- buttons and colors-->
