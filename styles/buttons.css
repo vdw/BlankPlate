@@ -34,17 +34,17 @@
 	cursor: pointer !important;
 	display: inline-block;
 	font-size: 13px;
-	height: 28px;
+	height: 2.154em;
 	margin-bottom: 10px;
 	min-width: 54px;
-	padding: 0 8px;
+	padding: 0 0.615em;
 	text-align: center;
 	text-decoration: none !important;
 	-moz-user-select: none
 }
 
 .btn SPAN {
-	font: 13px/18px 'Open Sans', sans-serif !important;
+	font: inherit/1.385em 'Open Sans', sans-serif !important;
 	vertical-align: top
 }
 
@@ -55,8 +55,8 @@
 }
 
 A.btn {
-	height: 26px;
-	line-height: 26px
+	height: 2.000em;
+	line-height: 2.000em
 }
 
 /* Fix vertical center in firefox */

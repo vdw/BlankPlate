@@ -29,12 +29,12 @@ INPUT, TEXTAREA, SELECT {
 }
 
 SELECT, INPUT[type="file"] {
-	height: 28px !important;
-	padding: 4px !important
+	height: 2.154em !important;
+	padding: 0.308em !important
 }
 
 INPUT[type="text"], INPUT[type="password"], TEXTAREA, LABEL {
-	padding: 4px
+	padding: 0.308em
 }
 
 INPUT:focus, TEXTAREA:focus {
@@ -56,16 +56,16 @@ SELECT {
 }
 
 OPTION {
-	padding: 0 8px
+	padding: 0 0.615em
 }
 
 LABEL {
 	display: block;
-	line-height: 18px
+	line-height: 1.385em
 }
 
 LABEL.inline {
 	display: inline-block;
-	line-height: 18px;
-	margin-bottom: 10px
+	line-height: 1.385em;
+	margin-bottom: 0.769em
 }
