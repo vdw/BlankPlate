@@ -28,6 +28,10 @@ INPUT, TEXTAREA, SELECT {
 	margin-bottom: 10px
 }
 
+INPUT[type="radio"] {
+	cursor: pointer
+}
+
 SELECT, INPUT[type="file"] {
 	height: 2.154em !important;
 	padding: 0.308em !important

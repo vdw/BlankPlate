@@ -244,6 +244,22 @@ ARTICLE OL {
 	margin-left: 2.615em; 	/* 34px */
 }
 
+FORM .vertical {
+	list-style: none;
+}
+
+LI > LABEL {
+	display: inline-block;
+	padding: 0;
+	vertical-align: middle;
+}
+
+LI > INPUT[type="radio"],
+LI > INPUT[type="checkbox"] {
+	margin: 0;
+	vertical-align: middle;
+}
+
 /**
  * PLACEHOLDERS
  *
