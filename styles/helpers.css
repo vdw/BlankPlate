@@ -138,7 +138,6 @@
 /* Clear fix */
 .clear {
 	clear: both;
-	display: inline;
 	float: none;
 	font-size: 1px;
 	height: 0px;
