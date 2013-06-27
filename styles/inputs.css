@@ -37,7 +37,7 @@ SELECT, INPUT[type="file"] {
 	padding: 0.308em !important
 }
 
-INPUT[type="text"], INPUT[type="password"], TEXTAREA, LABEL {
+INPUT[type="text"], INPUT[type="email"], INPUT[type="password"], TEXTAREA, LABEL {
 	padding: 0.308em
 }
 
