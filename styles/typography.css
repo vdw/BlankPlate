@@ -8,7 +8,7 @@
  *
  * @copyright	Copyright 2012, Dimitris Krestos
  * @license		Apache License, Version 2.0 (http://www.opensource.org/licenses/apache2.0.php)
- * @link		http://vdw.staytuned.gr/html5-starter-kit-blankplate/
+ * @link			http://vdw.staytuned.gr/html5-starter-kit-blankplate/
  * @package		BlankPlate
  * @version		v1.3.2
  */
@@ -89,27 +89,27 @@ A:hover {
  * -------------------------------------------------------------------------------------------------
  */
 H1 {
-	font-size: 2.308em; 	/* 30px */
+	font-size: 2.308em; 		/* 30px */
 	line-height: 1.500em; 	/* 44px */
 }
 
 H2 {
-	font-size: 1.846em; 	/* 24px */
+	font-size: 1.846em; 		/* 24px */
 	line-height: 1.500em; 	/* 36px */
 }
 
 H3 {
-	font-size: 1.538em; 	/* 20px */
+	font-size: 1.538em; 		/* 20px */
 	line-height: 1.500em; 	/* 27px */
 }
 
 H4 {
-	font-size: 1.385em; 	/* 18px */
+	font-size: 1.385em; 		/* 18px */
 	line-height: 1.500em; 	/* 24px */
 }
 
 H5, H6 {
-	font-size: 1.231em; 	/* 16px */
+	font-size: 1.231em; 		/* 16px */
 	line-height: 1.500em; 	/* 24px */
 }
 
@@ -208,6 +208,20 @@ CODE {
 CODE.monokai { /* Based on Monokai scheme colors */
 	background-color: #272822;
 	color: #FB4383
+}
+
+
+/**
+ * ABBREVIATIONS
+ *
+ * -------------------------------------------------------------------------------------------------
+ */
+ABBR {
+	border-bottom: 1px dotted black;
+}
+
+ABBR[title]:hover { /* Change cursor to a question mark when it has a title */
+	cursor: help;
 }
 
 /**
