@@ -8,7 +8,7 @@
  *
  * @copyright	Copyright 2012, Dimitris Krestos
  * @license		Apache License, Version 2.0 (http://www.opensource.org/licenses/apache2.0.php)
- * @link		http://vdw.staytuned.gr/html5-starter-kit-blankplate/
+ * @link			http://vdw.staytuned.gr/html5-starter-kit-blankplate/
  * @package		BlankPlate
  * @version		v1.3.2
  */
@@ -29,7 +29,11 @@
  * Based on Eric Meyer's reset (http://meyerweb.com/eric/tools/css/reset/index.html)
  * -------------------------------------------------------------------------------------------------
  */
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr,
+acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong,
+sub, sup, tt, var,b, u, i, center,dl, dt, dd, ul, li, fieldset, form, label, legend, table, caption,
+tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer,
+header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {
 	background: transparent;
 	border: 0;
 	font-family: inherit;
@@ -78,6 +82,19 @@ ol, ul {
 }
 
 /**
+ * HYPHENS
+ * http://meyerweb.com/eric/thoughts/2012/12/17/where-to-avoid-css-hyphenation
+ * -------------------------------------------------------------------------------------------------
+ */
+abbr, acronym, blockquote, code, dir, kbd, listing, plaintext, q, samp, tt, var, xmp {
+	-webkit-hyphens: none; /* Safari 5.1 thru 6, iOS 4.2 thru 6 */
+		 -moz-hyphens: none; /* Firefox 16 thru 20 */
+			-ms-hyphens: none; /* IE10 */
+			 -o-hyphens: none; /* PRESTO */
+					hyphens: none; /* W3C standard */
+}
+
+/**
  * MORE RESET
  *
  * -------------------------------------------------------------------------------------------------
@@ -95,7 +112,7 @@ blockquote, q {
 }
 
 /**
- * MORE FIXES
+ * FIXES
  *
  * -------------------------------------------------------------------------------------------------
  */
