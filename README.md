@@ -1,3 +1,5 @@
+**This project is not maintained anymore.**
+
 # Blankplate
 
 ## Yet another HTML5/CSS3 Starter Kit
